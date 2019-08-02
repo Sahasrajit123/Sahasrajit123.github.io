@@ -8,13 +8,13 @@
 # Site Settings
 minimal_mistakes_skin    : "dark"
 locale                   : "en-US"
-title                    : "Mohil Patel Home Page"
+title                    : "Sahasrajit Sarmasarkar Home Page"
 title_separator          : " - "
-name                     : &name "Mohil  Patel"
-description              : &description "Personal homepage of Mohil Patel"
-url                      : https://mohilp1998.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Sahasrajit Sarmasarkar"
+description              : &description "Personal homepage of Sahasrajit Sarmasarkar"
+url                      : https://Sahasrajit123.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mohilp1998/mohilp1998.github.io"
+repository               : "Sahasrajit123/Sahasrajit123.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,13 +81,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mohil Patel"
-  avatar           : "Mohil.jpg" # Image 
+  name             : "Sahasrajit Sarmasarkar"
+  avatar           : "profile.png" # Image 
   bio              : "Fourth Year B.Tech Student, Electrical Engineering, IIT Bombay"
   location         : "Mumbai, India"
   employer         :
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "mohilp1998[at]gmail.com"
+  email            : "sahasrajit1998[at]gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : mohilp1998
+  github           : Sahasrajit123
   google_plus      :
   keybase          :
   instagram        :
