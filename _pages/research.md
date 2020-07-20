@@ -12,6 +12,8 @@ Research projects:
 1. **Query Complexity of Heavy-Hitter distribution| Bachelor's Thesis** (Aug '19 - Jan '20) <br/>
   *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Deaprtment of Electrical Engineering, IIT Bombay* <br->
   *Introduction* : We consider the problem of identifying the subset $\mathcal{S}^{\gamma}_{\mathcal{P}}$ of elements in the support of an underlying distribution $\mathcal{P}$ whose probability value is larger than a given threshold $\gamma$, by actively querying an oracle to gain information about a sequence $X_1, X_2, \ldots$ of $i.i.d.$ samples drawn from $\mathcal{P}$ under two different query models.
+
+
 <!---
 My research interests broadly lie in **Applied Probability, Learning Theory, Optimization, Game Theory** and **Social Networks**. I am primarily interested in theoretical aspects of problems in these fields and I also like to apply these tools to solve real world problems.
 
