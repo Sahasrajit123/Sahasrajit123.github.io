@@ -7,8 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 Work in Progress
+
+<!--
+I am a fifth year dual degree (B.Tech + M.tech) student in [Electrical Engineering](https://www.ee.iitb.ac.in/web) at [IIT Bomabay](http://www.iitb.ac.in/) with specialization in Communications and Signal Processing. My research interests braodly lie in **Information Theory, Learning Theory, Coding in Distributed Computation**. I am primarily interested in theoretical problems in these areas.  
+-->
 
 <!---
 I am a Fifth Year Dual Degree (B. Tech + M. Tech) student of [Electrical Engineering](https://www.ee.iitb.ac.in/web) at [IIT Bombay](http://www.iitb.ac.in/) with specialization in Communications and Signal Processing. My research interests broadly lie in **Applied Probability, Learning Theory, Optimization, Game Theory** and **Social Networks**. I am primarily interested in theoretical aspects of problems in these fields and I also like to apply these tools to solve real world problems.
