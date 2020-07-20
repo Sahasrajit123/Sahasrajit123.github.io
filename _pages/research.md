@@ -14,8 +14,8 @@ Research projects:
   *Introduction*: We study the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ whose probability value is larger than a given threshold $\gamma$, by actively querying an oracle to gain information about a sequence $X_1, X_2, \ldots$ of $i.i.d.$ samples drawn from $\mathcal{P}$ under two different query models.
   * We consider two query models:
     <ol> 
-    <li> each query is an index $i$ and the oracle return the value $X_i$ </li> 
-    <li> each query is a pair $(i,j)$ and the oracle gives a binary answer confirming if $X_i = X_j$ or not.</li>
+    <li> Each query is an index $i$ and the oracle return the value $X_i$ </li> 
+    <li> Each query is a pair $(i,j)$ and the oracle gives a binary answer confirming if $X_i = X_j$ or not.</li>
     </ol> <br/>
   * We provide upper bounds on the query complexity of the algorithms for any distribution $\mathcal{P}$ and also derive lower bounds on the optimal query complexity under the two query models.<br/>
   * We also consider noisy versions of the two query models and propose robust estimators which can effectively counter the noise in the oracle responses.<br/>
