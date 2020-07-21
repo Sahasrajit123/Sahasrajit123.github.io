@@ -24,6 +24,14 @@ Research projects:
     * Theoretically demonstrated a ${2/3}^{rd}$ <b> factor</b> improvement in the <b> pull complexity </b> of the original method.<br/>
     * Formulating a \textbf{new setting} where the <b> tolerances </b> in optimality are <b> proportional to the mean.</b> <br/>
 
+
+3. **Thoerems in redundancies in multi-tasking| R & D project** (Jan '20 - Ongoing) <br/>
+   * Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay*
+   *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs and $n$ servers with $k$ distinct jobs in each server with each job being present in $k$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a random set of $x$ servers return their jobs.
+   * We prove that the expectation of the number of distinct jobs for any $x$ is same for every $x$. We design some criterion which when satisfied by the distribution, the variance of distinct jobs for any $x$ would be the least amongst all distributions.<br/>
+   * We also construct distributions with the least variance in number of distinct jobs for any $x$ using the concepts of finite fields for some $n$ and $k$.<br/>   
+   
+
    <!---
    <ol> 
     <li> Each query is an index $i$ and the oracle return the value $X_i$. </li> 
