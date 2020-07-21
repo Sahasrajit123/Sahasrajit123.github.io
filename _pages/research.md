@@ -21,8 +21,8 @@ Research projects:
    *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum), , Department of Electrical Engineering, IIT Bombay* <br/>
    *Introduction*: This is an exploration problem to identify a subset of m arms which perform better than the remaining n-m arms with at least $1-\delta$ confidence. We use a PAC framework which consists of two main events -- <b> Sampling strategy </b> and <b> Stopping criteria.</b>
    * Worked on reducing the <b> pull complexity </b> upto a <b> constant factor </b> by making algebraic improvements in the <b> stopping criteria </b> of the method proposed in a previous work on PAC optimal subset of stochastic MABs.<br/>
-    * Theoretically demonstrated a ${2/3}^{rd}$ <b> factor</b> improvement in the <b> pull complexity </b> of the original method<br/>
-    * Formulating a \textbf{new setting} where the <b> tolerances </b> in optimality are <b> proportional to the mean</b> <br/>
+    * Theoretically demonstrated a ${2/3}^{rd}$ <b> factor</b> improvement in the <b> pull complexity </b> of the original method.<br/>
+    * Formulating a \textbf{new setting} where the <b> tolerances </b> in optimality are <b> proportional to the mean.</b> <br/>
 
    <!---
    <ol> 
