@@ -6,8 +6,17 @@ use_math: true
 title: "Projects"
 excerpt: "Projects"
 ---
-Work in Progress
 
+Work in progress 
+
+<!---
+Technical projects:
+
+1. **Approximately Optimal Arms Identification of a Multi-Armed Bandit** (Aug' 2019 - Nov' 2019) <br/>
+   *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum)* <br/>
+    This is an exploration problem to identify a subset of m arms which perform better than the remaining n-m arms with at least $1-\delta$ confidence. We use a PAC framework which consists of two main events -- Sampling strategy and Stopping criteria. We studied variants of the Top-k arm selection problem in the multi-armed bandit setting with Bernoulli bandits. We suggested an alternative stopping criterion and proved improved bounds on sample complexity in the PAC framework. These theoretical results were verified by experiments on a suite of bandit instances. <br/>
+  \[[Slides](https://kc1729.github.io/files/Top_k_Arm_Selection.pdf)\]
+--->
 <!---
 I have outlined my non-research projects in this page. My research work can be found [here](https://kc1729.github.io/research/)
 

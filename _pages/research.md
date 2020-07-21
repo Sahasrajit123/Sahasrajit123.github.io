@@ -15,7 +15,15 @@ Research projects:
   * We consider the following two query models: $(a)$ each query is an index $i$ and the oracle return the value $X_i$ and $(b)$ each query is a pair $(i,j)$ and the oracle gives a binary answer confirming if $X_i = X_j$ or not.<br/>
   * We provide upper bounds on the query complexity of the algorithms for any distribution $\mathcal{P}$ and also derive lower bounds on the optimal query complexity under the two query models.<br/>
   * We also consider noisy versions of the two query models and propose robust estimators which can effectively counter the noise in the oracle responses.<br/>
-  * [Paper](https://arxiv.org/abs/2005.14425) submitted to **Journal for Special Areas in Information Theory (JSAIT)**   
+  * [Paper](https://arxiv.org/abs/2005.14425) submitted to **Journal for Special Areas in Information Theory (JSAIT)**
+
+2. **Approximately Optimal Arms Identification of a Multi-Armed Bandit| Course Project (Advanced Concentration Inequalities)** (Aug' 2019 - Nov' 2019) <br/>
+   *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum)* <br/>
+   *Introduction*: This is an exploration problem to identify a subset of m arms which perform better than the remaining n-m arms with at least $1-\delta$ confidence. We use a PAC framework which consists of two main events -- <b> Sampling strategy </b> and <b> Stopping criteria.</b>
+   * Working on reducing the <b> pull complexity </b> upto a <b> constant factor </b> by making algebraic improvements in the <b> stopping criteria </b> of the method proposed in a previous work on PAC optimal subset of stochastic MABs.<br/>
+    * Theoretically demonstrated a ${2/3}^{rd}$ <b> factor</b> improvement in the <b> pull complexity </b> of the original method<br/>
+    * Formulating a \textbf{new setting} where the <b> tolerances </b> in optimality are <b> proportional to the mean</b> <br/>
+    * \[[Slides](https://kc1729.github.io/files/Top_k_Arm_Selection.pdf)\]
 
    <!---
    <ol> 
