@@ -17,7 +17,7 @@ Technical Projects:
    * Implemented all the above algorithms using actual delay data of cells as per 65nm node technology to incorporate slew and loading of cells and generalised the above two algorithms to any combinational network.<br/>
 
 2. **On the early spreading rate of COVID-19 in India** (Mar '20 - Apr '20) <br/>
-   *Guide: [Prof. D.Manjunath](https://www.ee.iitb.ac.in/wiki/faculty/dmanju)* <br/>
+   *Guide: [Prof. D.Manjunath](https://www.ee.iitb.ac.in/wiki/faculty/dmanju), Department of Electrical Engineering, IIT Bombay* <br/>
   We consider various statistical models which we believe are suitable to the early spreading of the virus in many countries including India. These statistical models are variations of the standard SIR model used for the spread of epidemic diseases. We further assume that there are no false positives and only a fraction of those who develop symptoms have been tested and isolated. We use the available data to compare the spreading rate in India and other countries.<br/>
    \[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]  
   

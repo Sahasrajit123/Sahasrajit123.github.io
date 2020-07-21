@@ -18,7 +18,7 @@ Research projects:
   * [Paper](https://arxiv.org/abs/2005.14425) submitted to **Journal for Special Areas in Information Theory (JSAIT)**
 
 2. **Approximately Optimal Arms Identification of a MAB| \[[Slides](https://kc1729.github.io/files/Top_k_Arm_Selection.pdf)\]** (Aug' 2019 - Nov' 2019) <br/>
-   *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum), , Department of Electrical Engineering, IIT Bombay* <br/>
+   *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum), Department of Electrical Engineering, IIT Bombay* <br/>
    *Introduction*: This is an exploration problem to identify a subset of m arms which perform better than the remaining n-m arms with at least $1-\delta$ confidence. We use a PAC framework which consists of two main events -- <b> Sampling strategy </b> and <b> Stopping criteria.</b>
    * Worked on reducing the <b> pull complexity </b> upto a <b> constant factor </b> by making algebraic improvements in the <b> stopping criteria </b> of the method proposed in a previous work on PAC optimal subset of stochastic MABs.<br/>
     * Theoretically demonstrated a ${2/3}^{rd}$ <b> factor</b> improvement in the <b> pull complexity </b> of the original method.<br/>
