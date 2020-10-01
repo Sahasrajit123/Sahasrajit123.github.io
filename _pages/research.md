@@ -9,28 +9,39 @@ excerpt: "Research Experience"
 
 Research projects: 
 
-1. **Query Complexity of Heavy-Hitter distribution| Bachelor's Thesis** (Aug '19 - Jan '20) <br/>
+1. **Double Exploration Problem| Dual Degree Project** (June '20 - Ongoing) <br/>
   *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Department of Electrical Engineering, IIT Bombay* <br/>
-  *Introduction*: We study the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ whose probability value is larger than a given threshold $\gamma$, by actively querying an oracle to gain information about a sequence $X_1, X_2, \ldots$ of $i.i.d.$ samples drawn from $\mathcal{P}$ under two different query models.
+  *Introduction*:  We study the problem of identifying the subset of support elements of an underlying distribution $\mathcal{P}$ which is an "outlier" i.e, whose support probability lies above $k$ standard deviations of the mean. Information about the distribution can be gained only through an oracle which has access to sequence $X_1,X_2,...$. of i.i.d samples drawn from $\mathcal{P}$.  <br/>
   * We consider the following two query models: $(a)$ each query is an index $i$ and the oracle return the value $X_i$ and $(b)$ each query is a pair $(i,j)$ and the oracle gives a binary answer confirming if $X_i = X_j$ or not.<br/>
-  * We provide upper bounds on the query complexity of the algorithms for any distribution $\mathcal{P}$ and also derive lower bounds on the optimal query complexity under the two query models.<br/>
+  * We propose algorithms which returns the correct subset with error probability bounded by at most $\delta$ and also prove upper bounds on its query complexity.<br/>
+  * We also propose a lower bound on the number of queries of any algorithm which returns the correct subset with probability at least $(1-\delta)$.<br/>
+  
+
+2. **Query Complexity of Heavy-Hitter distribution| Bachelor's Thesis** (Aug '19 - Jan '20) <br/>
+  *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Department of Electrical Engineering, IIT Bombay* <br/>
+  *Introduction*: We studied the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ whose probability value is larger than a given threshold $\gamma$, by actively querying an oracle to gain information about a sequence $X_1, X_2, \ldots$ of $i.i.d.$ samples drawn from $\mathcal{P}$ under two different query models.<br/>
+  * We consider the following two query models: $(a)$ each query is an index $i$ and the oracle return the value $X_i$ and $(b)$ each query is a pair $(i,j)$ and the oracle gives a binary answer
+  confirming if $X_i = X_j$ or not.<br/>
+  * We propose upper bounds on the query complexity of our algorithm and also design lower bounds on any optimal algorithm under both the query models.<br/>
   * We also consider noisy versions of the two query models and propose robust estimators which can effectively counter the noise in the oracle responses.<br/>
-  * [Paper](https://arxiv.org/abs/2005.14425) submitted to **Journal for Special Areas in Information Theory (JSAIT)**
+  * [Paper](https://arxiv.org/abs/2005.14425) submitted to **IEEE Journal on Selected Areas in Information Theory (JSAIT)**
 
 
 2. **Thoerems in redundancies in multi-tasking| R & D project** (Jan '20 - Ongoing) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
-   *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs and $n$ servers with $k$ distinct jobs in each server with each job being present in $k$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a random set of $x$ servers return their jobs.
-   * We prove that the expectation of the number of distinct jobs for any $x$ is same for every distribution satisfying the above criterion. We design some conditions which if satisfied by the distribution, the variance of the number of distinct jobs for any $x$ would be the least amongst all distributions.<br/>
-   * We also construct distributions with the least variance in number of distinct jobs for any $x$ using the concepts of finite fields for some $n$ and $k$.<br/>   
+   *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs and $n$ servers with $k$ distinct jobs in each server with each job being present in $k$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a set of $x$ servers chosen uniformly at random return their jobs.
+   * We prove that the expectation of the number of distinct jobs is same irrespective of the distribution chosen.<br/>
+   * We design a sufficient criterion such that the variance of the number of distinct jobs for any $x$ would be the least amongst all distributions.<br/>
+   * We also show that constructions using Balanced Incomplete Block Designs achieved the above requirement for certain values of $n$ and $k$.<br/>   
    
 
 
 3. **Approximately Optimal Arms Identification of a MAB| \[[Slides](https://kc1729.github.io/files/Top_k_Arm_Selection.pdf)\]** (Aug' 2019 - Nov' 2019) <br/>
    *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum), Department of Electrical Engineering, IIT Bombay* <br/>
-   *Introduction*: This is an exploration problem to identify a subset of m arms which perform better than the remaining n-m arms with at least $1-\delta$ confidence. We use a PAC framework which consists of two main events -- <b> Sampling strategy </b> and <b> Stopping criteria.</b>
-   * Worked on reducing the <b> pull complexity </b> upto a <b> constant factor </b> by making algebraic improvements in the <b> stopping criteria </b> of the method proposed in a previous work on PAC optimal subset of stochastic MABs.<br/>
-    * Theoretically demonstrated a ${2/3}^{rd}$ <b> factor</b> improvement in the <b> pull complexity </b> of the original method.<br/>
+   *Introduction*: This is a MAB (Multi Arm Bandit) setting problem where we wish to identify a set of top $m$ arms with $\epsilon$-error tolerance correctly with probability at least $(1-\delta)$. This algorithm proceeds in rounds with each round divided into 2 events- Sampling Strategy and Stoppping Criterion.
+   * Slightly modified the stopping criterion and the confidence intervals by making algebraic improvements in a previous work on PAC optimal subsets.<br/>
+   * Theoretically proved $2/3^{rd}$ factor improvement in the pull complexity with the above modifications.% in the alagorithm.<br/>
+    
 
 
 
