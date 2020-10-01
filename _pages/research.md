@@ -36,11 +36,11 @@ Research projects:
    
 
 
-4. **Approximately Optimal Arms Identification of a MAB| \[[Slides](https://kc1729.github.io/files/Top_k_Arm_Selection.pdf)\]** (Aug' 2019 - Nov' 2019) <br/>
+4. **Approximately Optimal Arms Identification of a MAB| \[[Slides](https://Sahasrajit123.github.io/files/Top_k_Arm_Selection.pdf)\]** (Aug' 2019 - Nov' 2019) <br/>
    *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum), Department of Electrical Engineering, IIT Bombay* <br/>
    *Introduction*: This is a MAB (Multi Arm Bandit) setting problem where we wish to identify a set of top $m$ arms with $\epsilon$-error tolerance correctly with probability at least $(1-\delta)$. This algorithm proceeds in rounds with each round divided into 2 events- Sampling Strategy and Stoppping Criterion.
    * Slightly modified the stopping criterion and the confidence intervals by making algebraic improvements in a previous work on PAC optimal subsets.<br/>
-   * Theoretically proved $2/3^{rd}$ factor improvement in the pull complexity with the above modifications.% in the alagorithm.<br/>
+   * Theoretically proved $2/3^{rd}$ factor improvement in the pull complexity with the above modifications.<br/>
     
 
 

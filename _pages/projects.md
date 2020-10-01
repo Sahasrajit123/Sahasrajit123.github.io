@@ -8,19 +8,38 @@ excerpt: "Projects"
 ---
 
 Technical Projects:
+1. **Iterative decoding algorithms on modern codes** (Jan '20- May '20)<br/>
+   *Guide: [Prof. Manoj Gopalkrishnan](https://www.ee.iitb.ac.in/~manojg), [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/) Department of Electrical Engineering, IIT Bombay*
+   *Introduction*: The goal in this project was to do an existing literature survey on modern codes specifically to do with LPDC (Low Density Parity Check) codes and turbo codes.
+   * Studied the classical message passing algorithm on non-cyclic codes and the convergence in error probability of belief propagation algorithm on certain ensembles of LDPC codes under certain symmetric channels.<br/>
+   * Read up on EXIT charts to get an information theoretic viewpoint of the decoding process and went through the convergence of the peeling decoder of LDPC codes under Binary erasure channel.<br/>
+   * Studied turbo codes, their representations as factor graphs , the density evolution process during iterative decoding , stability condition, their corresponding EXIT charts and their weight distribution.<br/>
+   
 
-1. **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
-   *Texas Instruments, Bangalore* <br/>
-   * Devised algorithms for connections of input and output pins of full adder cells so as to minimise the maximum delay of the whole network.<br/>
-   * Worked on buffer insertion problem and used linear programming to insert buffers so that the whole network could be <b> wave-pipelined </b>.<br/>
-   * Worked on cell-selection problem to meet a certain delay target of the whole network with the lowest cost.<br/>
-   * Implemented all the above algorithms using actual delay data of cells as per 65nm node technology to incorporate slew and loading of cells and generalised the above two algorithms to any combinational network.<br/>
-
-2. **On the early spreading rate of COVID-19 in India** (Mar '20 - Apr '20) <br/>
+2. **On the early spreading rate of COVID-19 in India| \[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]** (Mar '20 - Apr '20) <br/>
    *Guide: [Prof. D.Manjunath](https://www.ee.iitb.ac.in/wiki/faculty/dmanju), Department of Electrical Engineering, IIT Bombay* <br/>
-  We consider various statistical models which we believe are suitable to the early spreading of the virus in many countries including India. These statistical models are variations of the standard SIR model used for the spread of epidemic diseases. We further assume that there are no false positives and only a fraction of those who develop symptoms have been tested and isolated. We use the available data to compare the spreading rate in India and other countries.<br/>
-   \[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]  
+  *Introduction*: We attempted to model the early spreading of CoVID-19  in India and other countries using subtle variations of graphical SIR( Susceptible Infected Recovered) models.
+  * Studied various SIR models to approximately model the spread rate of CoVID-19 in India.<br/>
+  * Three different models were simulated for four different countries to estimate the contact rates using the data available on the number of cases.<br/>
+   <!-\[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]>  
   
+3. **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
+   *Guide: [Prof. Madhav Desai](https://www.ee.iitb.ac.in/web/people/faculty/home/madhav), Department of Electrical Engineering, IIT Bombay* <br/>
+   *Introduction*: The goal in this project was to build an efficient hardware accelerator which exploits parallelism.
+  * Implemented a pipelined design for convolving a kernel with an image stored in a shared memory.<br/>
+  * Parallelized the operation using multiple engines which can fetch the image through pipes and perform convolution to reduce computation time and utilize the entire memory bandwidth.<br/>
+  
+4. **Superscaler and Pipelined Processor Design** (Oct '18 - May '19) <br/>
+   *Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/), Department of Electrical Engineering, IIT Bombay* <br/>
+   *Introduction*: The goal in this project was to implement general purpose micro-processor designs with an instruction set architecture having 16 diverse instructions in VHDL.
+  * Pipelined RISC processor implementation (Oct '18 - Nov '18)<br/>
+  Employed hazard-mitigation, operand-forwarding techniques to design a six stage execution pipeline and synthesized on Altera Deo-Nano FPGA Board running at 50 MHz.<br/>
+  * Superscaler processor implementation (Apr '19 - May '19)<br/>
+  Designed an out of order execution engine consisting of two way fetch supported by specialised execution engines, reorder buffer, register renaming and reservation station to extract instruction level parallelism.<br/>  
+
+     
+    
+   
  
 
 <!---
