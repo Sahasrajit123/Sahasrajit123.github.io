@@ -55,7 +55,7 @@ Technical Projects:
  
 7. **Stereo-Camera Calibration & Image Rectification on FPGA** (Summer '18) <br/>
    *Guide: [Prof. Sachin Patkar](https://www.ee.iitb.ac.in/web/people/faculty/home/patkar), EE, IIT-B* <br/>
-   * Developed a dual \textbf {OV7670 camera} setup compatible with De0-Nano Board (Cyclone IV-E FPGA).<br/>
+   * Developed a dual OV7670 camera setup compatible with De0-Nano Board (Cyclone IV-E FPGA).<br/>
    * Used FTDI chip FT245RL for sending bytes captured by camera in default YUV format through serial port communication with PC by writing VHDL and Verilog codes.<br/>
    * Used OpenCV library on C++ for image construction from the received bytes on the serial port of PC.<br/>  
     
