@@ -7,11 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Work in Progress
 
-<!--
-I am a fifth year dual degree (B.Tech + M.tech) student in [Electrical Engineering](https://www.ee.iitb.ac.in/web) at [IIT Bomabay](http://www.iitb.ac.in/) with specialization in Communications and Signal Processing. My research interests braodly lie in **Information Theory, Learning Theory, Coding in Distributed Computation**. I am primarily interested in theoretical problems in these areas.  
--->
+
+I am a fifth year dual degree (B.Tech + M.tech) student in [Electrical Engineering](https://www.ee.iitb.ac.in/web) at [IIT Bomabay](http://www.iitb.ac.in/) with specialization in Communications and Signal Processing. My research interests braodly lie in **Information Theory, Learning Theory, Coded Distributed Computation** and **other applications of coding theory**. I have specifically worked on problems related to statistical inference, learning theory and gradient coding. I am primarily interested in theoretical problems in these areas and would like to apply these techniques to solve real world problems.
+
+My master's thesis is with [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/) and [Prof. Lalitha Vadlamani](https://faculty.iiit.ac.in/~lalitha.v/) where we are exploring the problem of straggler mitigation through gradient coding. During my undergraduate years, I have worked with [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/) on problems related to learning theory and statistical inference and with [Prof. Harish Pillai](http://www.ee.iitb.ac.in/~hp/) on problems related to redundancies in distributed computing. I spent my third year summer interning at Texas Instruments(India) on delay optimisations in digital logic circuits.      
+
+To know more on my projects, you can visit [Research](https://Sahasrajit123.github.io/research/) page and my academic CV can be found [here]((https://Sahasrajit123.github.io/assets/files/CV_Sahasrajit.pdf)).
+
 
 <!---
 I am a Fifth Year Dual Degree (B. Tech + M. Tech) student of [Electrical Engineering](https://www.ee.iitb.ac.in/web) at [IIT Bombay](http://www.iitb.ac.in/) with specialization in Communications and Signal Processing. My research interests broadly lie in **Applied Probability, Learning Theory, Optimization, Game Theory** and **Social Networks**. I am primarily interested in theoretical aspects of problems in these fields and I also like to apply these tools to solve real world problems.
