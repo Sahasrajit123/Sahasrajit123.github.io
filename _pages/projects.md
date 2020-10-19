@@ -16,20 +16,13 @@ Technical Projects:
    * Studied turbo codes, their representations as factor graphs , the density evolution process during iterative decoding , stability condition, their corresponding EXIT charts and their weight distribution.<br/>
    
 
-2. **On the early spreading rate of COVID-19 in India| \[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]** (Mar '20 - Apr '20) <br/>
-   *Guide: [Prof. D.Manjunath](https://www.ee.iitb.ac.in/wiki/faculty/dmanju), EE, IIT-B* <br/>
-  *Introduction*: We attempted to model the early spreading of CoVID-19  in India and other countries using subtle variations of graphical SIR( Susceptible Infected Recovered) models.
-  * Studied various SIR models to approximately model the spread rate of CoVID-19 in India.<br/>
-  * Three different models were simulated for four different countries to estimate the contact rates using the data available on the number of cases.<br/>
-   
-  
-3. **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
+2. **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
    *Guide: [Prof. Madhav Desai](https://www.ee.iitb.ac.in/web/people/faculty/home/madhav), EE, IIT-B* <br/>
    *Introduction*: The goal in this project was to build an efficient hardware accelerator which exploits parallelism.
   * Implemented a pipelined design for convolving a kernel with an image stored in a shared memory.<br/>
   * Parallelized the operation using multiple engines which can fetch the image through pipes and perform convolution to reduce computation time and utilize the entire memory bandwidth.<br/>
 
-4.  **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
+3.  **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
    *Texas Instruments, Bangalore* <br/>
    * Devised algorithms for connections of input and output pins of full adder cells so as to minimise the maximum delay of the whole network.<br/>
    * Worked on buffer insertion problem and used linear programming to insert buffers so that the whole network could be wave-pipelined.<br/>
@@ -37,7 +30,7 @@ Technical Projects:
    * Implemented all the above algorithms using actual delay data of cells as per 65nm node technology to incorporate slew and loading of cells and generalised the above two algorithms to any combinational network.<br/>
 
   
-5. **Superscaler and Pipelined Processor Design** (Oct '18 - May '19) <br/>
+4. **Superscaler and Pipelined Processor Design** (Oct '18 - May '19) <br/>
    *Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/), EE, IIT-B* <br/>
    *Introduction*: The goal in this project was to implement general purpose micro-processor designs with an instruction set architecture having 16 diverse instructions in VHDL.
   * Pipelined RISC processor implementation (Oct '18 - Nov '18)<br/>
@@ -46,14 +39,14 @@ Technical Projects:
   Designed an out of order execution engine consisting of two way fetch supported by specialised execution engines, reorder buffer, register renaming and reservation station to extract instruction level parallelism.<br/>  
 
 
-6. **IIT Bombay Racing (Electric Subsystem)** (Academic year '17-'19) <br/>
+5. **IIT Bombay Racing (Electric Subsystem)** (Academic year '17-'19) <br/>
    A cross functional team of 60+ students from 7 engineering disciplines which designs and fabricates an electric race car for Formula Student competition held annually at Silverstone, UK.<br/>
   * Designed the harness of the whole car keeping into considerations the current and voltage rating of each input signal in each board.<br/>
   * Designed and tested the CAN (Controlled Area Network) node using CAN enabled micro-controller atmega-16M1 in embedded C using interrupts for sending and receiving messages.<br/>
   * Developed codes using interrupts in ECU (embedded C programming) for reading data from CAN bus, processing and sending control commands to BLDC (Brushless DC motors) on CAN bus.<br/> 
    
  
-7. **Stereo-Camera Calibration & Image Rectification on FPGA** (Summer '18) <br/>
+6. **Stereo-Camera Calibration & Image Rectification on FPGA** (Summer '18) <br/>
    *Guide: [Prof. Sachin Patkar](https://www.ee.iitb.ac.in/web/people/faculty/home/patkar), EE, IIT-B* <br/>
    * Developed a dual OV7670 camera setup compatible with De0-Nano Board (Cyclone IV-E FPGA).<br/>
    * Used FTDI chip FT245RL for sending bytes captured by camera in default YUV format through serial port communication with PC by writing VHDL and Verilog codes.<br/>

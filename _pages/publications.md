@@ -4,7 +4,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-Work in Progress
+1. S. Sarmasarkar, K.S. Reddy and N. Karamchandani  "Query Complexity of Heavy-Hitter distribution", \link [\color{blue} {(https://arxiv.org/abs/2005.14425)}]{https://arxiv.org/abs/2005.14425}
+2. Himanshu Aswani, Rahul Chanduka, Sahasrajit Sarmasarkar and D. Manjunath "On the early spreading rate of COVID-19 in India" \link[{(https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)}] {https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)}
 
 <!---
 1. Vivek Borkar, Karan Chadha,  "A  reinforcement  learning  algorithm  for restless bandits", Indian Control Conference, 2018. \[[Link](https://ieeexplore.ieee.org/abstract/document/8307959)\]
