@@ -13,7 +13,7 @@ I am a fifth year dual degree (B.Tech + M.tech) student in [Electrical Engineeri
 
 My master's thesis is with [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/) and [Prof. Lalitha Vadlamani](https://faculty.iiit.ac.in/~lalitha.v/) where we are exploring the problem of straggler mitigation through gradient coding. During my undergraduate years, I have worked with [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/) on problems related to learning theory and statistical inference and with [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp) on problems related to redundancies in distributed computing. I spent my third year summer interning at Texas Instruments on delay optimisations in digital logic circuits. I was also a part of undergraduate students in [IIT Bombay Racing team](http://www.iitbracing.org) which manufactures an electric car every year and participates in the annual [Formula Student](https://www.imeche.org/events/formula-student) competition and led the design of harness and Controlled-Area-Network(CAN) communication in [EVO-K](https://www.iitbracing.org/cars/evok.php).     
 
-To know more on my projects, you can visit [Research](https://Sahasrajit123.github.io/research/) page and my academic CV can be found [here]((https://Sahasrajit123.github.io/assets/files/CV_Sahasrajit.pdf)).
+To know more on my projects, you can visit [Research](https://Sahasrajit123.github.io/research/) page and my academic CV can be found [here]((https://Sahasrajit123.github.io/files/CV_Sahasrajit.pdf)).
 
 
 <!---

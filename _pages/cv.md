@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 Work in Progress
-<!---
-[Long CV](https://kc1729.github.io/files/cv_Karan_Chadha.pdf) (4 pages) <br>
-[Short CV](https://kc1729.github.io/files/short_cv_Karan_Chadha.pdf) (1 page)
--->
+
+[Long CV](https://sahasrajit123.github.io/files/CV_Sahasrajit.pdf) (3 pages)
+
+
