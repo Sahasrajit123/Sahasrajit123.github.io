@@ -8,7 +8,7 @@ excerpt: "Projects"
 ---
 
 Technical Projects:
-1. **Iterative decoding algorithms on modern codes** (Jan '20- May '20)<br/>
+1. **Iterative decoding algorithms on modern codes| \[[Report](https://Sahasrajit123.github.io/files/Godzilla.pdf)\]** (Jan '20- May '20)<br/>
    *Guide: [Prof. Manoj Gopalkrishnan](https://www.ee.iitb.ac.in/~manojg), [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), EE, IIT-B*<br/>
    *Introduction*: The goal in this project was to do an existing literature survey on modern codes specifically to do with LPDC (Low Density Parity Check) codes and turbo codes.
    * Studied the classical message passing algorithm on non-cyclic codes and the convergence in error probability of belief propagation algorithm on certain ensembles of LDPC codes under certain symmetric channels.<br/>
