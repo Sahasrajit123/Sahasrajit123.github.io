@@ -22,7 +22,7 @@ Research projects:
 
 2. **Thoerems in redundancies in multi-tasking| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf)\]** (Jan '20 - Ongoing) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
-   *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs and $n$ servers with $k$ distinct jobs in each server with each job being present in $k$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a set of $x$ servers chosen uniformly at random return their jobs.
+   *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs(tasks) and $c$ servers with $k$ distinct jobs in each server with each job being present in $r$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a set of $x$ servers chosen uniformly at random return their jobs.
    * We prove that the expectation of the number of distinct jobs is same irrespective of the distribution chosen.<br/>
    * We design a sufficient criterion such that the variance of the number of distinct jobs for any $x$ would be the least amongst all distributions.<br/>
    * We also show that constructions using Balanced Incomplete Block Designs achieved the above requirement for certain values of $n$ and $k$.<br/>   
