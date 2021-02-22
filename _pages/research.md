@@ -20,7 +20,7 @@ Research projects:
   * [Pre-print](https://arxiv.org/abs/2005.14425) posted on [arxiv](https://arxiv.org)
 
 
-2. **Thoerems in redundancies in multi-tasking| R & D project| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf\]** (Jan '20 - Ongoing) <br/>
+2. **Thoerems in redundancies in multi-tasking| R & D project| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf)\]** (Jan '20 - Ongoing) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
    *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs and $n$ servers with $k$ distinct jobs in each server with each job being present in $k$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a set of $x$ servers chosen uniformly at random return their jobs.
    * We prove that the expectation of the number of distinct jobs is same irrespective of the distribution chosen.<br/>
@@ -28,7 +28,7 @@ Research projects:
    * We also show that constructions using Balanced Incomplete Block Designs achieved the above requirement for certain values of $n$ and $k$.<br/>   
 
 
-3. **Straggler mitigation under gradient coding| \[[Report](https://sahasrajit123.github.io/files/partial_gradient_coding_extended.pdf\]** (Sep '20 - Ongoing) <br/>
+3. **Straggler mitigation under gradient coding| \[[Report](https://sahasrajit123.github.io/files/partial_gradient_coding_extended.pdf)\]** (Sep '20 - Ongoing) <br/>
    *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay*
    *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
    * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
