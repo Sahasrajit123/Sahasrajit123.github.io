@@ -20,22 +20,32 @@ Research projects:
   * [Pre-print](https://arxiv.org/abs/2005.14425) posted on [arxiv](https://arxiv.org)
 
 
-2. **Thoerems in redundancies in multi-tasking| R & D project** (Jan '20 - Ongoing) <br/>
+2. **Thoerems in redundancies in multi-tasking| R & D project| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf\]** (Jan '20 - Ongoing) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
    *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs and $n$ servers with $k$ distinct jobs in each server with each job being present in $k$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a set of $x$ servers chosen uniformly at random return their jobs.
    * We prove that the expectation of the number of distinct jobs is same irrespective of the distribution chosen.<br/>
    * We design a sufficient criterion such that the variance of the number of distinct jobs for any $x$ would be the least amongst all distributions.<br/>
    * We also show that constructions using Balanced Incomplete Block Designs achieved the above requirement for certain values of $n$ and $k$.<br/>   
 
-3. **On the early spreading rate of COVID-19 in India| \[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]** (Mar '20 - Apr '20) <br/>
-   *Guide: [Prof. D.Manjunath](https://www.ee.iitb.ac.in/wiki/faculty/dmanju), EE, IIT-B* <br/>
+
+3. **Straggler mitigation under gradient coding| \[[Report](https://sahasrajit123.github.io/files/partial_gradient_coding_extended.pdf\]** (Sep '20 - Ongoing) <br/>
+   *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay*
+   *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
+   * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
+   * We also design cyclic schemes restricting to transmission of two linear combinations per worker with slightly higher number of gradients being computed by every worker.<br/>
+   * Proved that the above scheme is "optimal" in the number of gradients assigned to any worker under certain constraints on $n,l$ and $s$.<br/>
+   
+
+ 
+4. **On the early spreading rate of COVID-19 in India| \[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]** (Mar '20 - Apr '20) <br/>
+   *Guide: [Prof. D.Manjunath](https://www.ee.iitb.ac.in/wiki/faculty/dmanju), Department of Electrical Engineering, IIT Bombay* <br/>
   *Introduction*: We attempted to model the early spreading of CoVID-19  in India and other countries using subtle variations of graphical SIR( Susceptible Infected Recovered) models.
   * Studied various SIR models to approximately model the spread rate of CoVID-19 in India.<br/>
   * Three different models were simulated for four different countries to estimate the contact rates using the data available on the number of cases.<br/>
    
 
 
-4. **Approximately Optimal Arms Identification of a MAB| \[[Slides](https://Sahasrajit123.github.io/files/Top_k_Arm_Selection.pdf)\]** (Aug '19 - Nov '19) <br/>
+5. **Approximately Optimal Arms Identification of a MAB| \[[Slides](https://Sahasrajit123.github.io/files/Top_k_Arm_Selection.pdf)\]** (Aug '19 - Nov '19) <br/>
    *Guide : [Prof. Sharayu Moharir](https://www.ee.iitb.ac.in/web/people/faculty/home/sharayum), Department of Electrical Engineering, IIT Bombay* <br/>
    *Introduction*: This is a MAB (Multi Arm Bandit) setting problem where we wish to identify a set of top $m$ arms with $\epsilon$-error tolerance correctly with probability at least $(1-\delta)$. This algorithm proceeds in rounds with each round divided into 2 events- Sampling Strategy and Stoppping Criterion.
    * Modified the stopping criterion and the confidence intervals in a previous work on PAC optimal subsets.<br/>
