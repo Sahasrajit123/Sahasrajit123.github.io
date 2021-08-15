@@ -17,7 +17,7 @@ Research projects:
   * We propose upper bounds on the query complexity of our algorithm and also derive "matching" lower bounds on any optimal algorithm under both the query models.<br/>
   * We also consider noisy versions of the two query models and propose upper bounds on algorithms to estimate the desired subset of elements.<br/>
   * We derive upper bounds on algorithms for an alternate version of this problem where we wish to identify the subset of support elements which is an "outlier" i.e, whose support probability lies above $k$ standard deviations of the mean and design lower bounds on any optimal algorithm under the first query model.<br/>
-  * [Pre-print](https://arxiv.org/abs/2005.14425) posted on [arxiv](https://arxiv.org)
+  * [Paper](https://arxiv.org/abs/2005.14425) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
 
 
 2. **Thoerems in redundancies in multi-tasking| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf)\]** (Jan '20 - Ongoing) <br/>
@@ -32,14 +32,15 @@ Research projects:
    *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay* <br/>
    *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
    * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
-   * We also design cyclic schemes restricting to transmission of two linear combinations per worker with slightly higher number of gradients being computed by every worker.<br/>
    * Proved that the above scheme is "optimal" in the number of gradients assigned to any worker under certain constraints on $n,l$ and $s$.<br/>
+   * We also simulate such schemes using different delay model on machines and show empirically that such schemes may indeed converge faster than full recovery schemes and the ones which don't use any coding.<br/>
+   * [Paper](https://arxiv.org/abs/2102.10163) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
    
 
  
 4. **On the early spreading rate of COVID-19 in India| \[[Report](https://www.researchgate.net/publication/340898213_On_the_early_spreading_rate_of_COVID-19_in_India)\]** (Mar '20 - Apr '20) <br/>
    *Guide: [Prof. D.Manjunath](https://www.ee.iitb.ac.in/wiki/faculty/dmanju), Department of Electrical Engineering, IIT Bombay* <br/>
-  *Introduction*: We attempted to model the early spreading of CoVID-19  in India and other countries using subtle variations of graphical SIR( Susceptible Infected Recovered) models.
+  *Introduction*: We attempted to model the early spreading of CoVID-19  in India and other countries using subtle variations of graphical SIR(Susceptible Infected Recovered) models.
   * Studied various SIR models to approximately model the spread rate of CoVID-19 in India.<br/>
   * Three different models were simulated for four different countries to estimate the contact rates using the data available on the number of cases.<br/>
    
