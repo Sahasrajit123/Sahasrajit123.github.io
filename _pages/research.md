@@ -11,12 +11,10 @@ Research projects:
 
 1. **Sequential Deliberation in Participatory Budgeting** <br/>
     *Advisor: [Prof. Ashish Goel](https://web.stanford.edu/~ashishg/), Department of Management Science and Engineering, Stanford* <br/>
-    *Introduction*: We consider the problem of seqential deliberation in participatory budgeting where randomly sampled agents bargain in rounds with the outcome of the previous round being the diasgreement point for the current round. 
-
-    *We propose a randomised Nash bargaining scheme which achieves a distortion ratio of 1.66.* <br/>
-    *We also show that schemes with a single agent (Randomised Dictator) and two agents (Randomised Diarchy) cannot achieve a distortion ratio better than 2*<br/>
-
-    *Paper submitted to [AAMAS, 2023](https://aamas2023.soton.ac.uk/)*<br/>
+    *Introduction*: We consider the problem of seqential deliberation in participatory budgeting where randomly sampled agents bargain in rounds with the outcome of the previous round being the diasgreement point for the current round.<br/> 
+    * We propose a randomised Nash bargaining scheme which achieves a distortion ratio of 1.66.* <br/>
+    * We also show that schemes with a single randomly sampled agent (Randomised Dictator) and two sampled agents (Randomised Diarchy) cannot achieve a distortion ratio better than 2*<br/>
+    *Paper submitted to [AAMAS, 2023](https://aamas2023.soton.ac.uk/)*
 
 
 2. **Query Complexity of Heavy-Hitter distribution| Bachelor's Thesis** (Aug '19 - Jan '20) <br/>

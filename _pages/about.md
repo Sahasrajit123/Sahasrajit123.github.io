@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a second year Ph.D student in the Department of [Electrical Engineering](https://ee.stanford.edu/) at Stanford University working with [Prof. Ashish Goel](https://web.stanford.edu/~ashishg/) on problems related to algorithms and social choice. I completed my dual degree (B.Tech + M.tech) in [Electrical Engineering](https://www.ee.iitb.ac.in/web) at [IIT Bombay](http://www.iitb.ac.in/) with specialization in Communications and Signal Processing. 
+I am a second year Ph.D student in the Department of [Electrical Engineering](https://ee.stanford.edu/) at [Stanford University](https://www.stanford.edu/) working with [Prof. Ashish Goel](https://web.stanford.edu/~ashishg/) on problems related to algorithms and social choice. I completed my dual degree (B.Tech + M.tech) in [Electrical Engineering](https://www.ee.iitb.ac.in/web) at [IIT Bombay](http://www.iitb.ac.in/) with specialization in Communications and Signal Processing. 
 
 <!--
 My research interests broadly lie in **Learning Theory, Coded Distributed Computation** and **Information Theory**. I have specifically worked on problems related to statistical inference, learning theory and gradient coding. I am primarily interested in theoretical problems in these areas and would like to apply these techniques to solve real world problems.
