@@ -82,9 +82,9 @@ analytics:
 # Site Author
 author:
   name             : "Sahasrajit Sarmasarkar"
-  avatar           : "profile.png" ## Image 
-  bio              : "Fifth Year Dual Degree (B.Tech+M.Tech) Student, Electrical Engineering, IIT Bombay"
-  location         : "Mumbai, India"
+  avatar           : "Sahasrajit.jpg" ## Image 
+  bio              : "Second year Ph.D. Student, Electrical Engineering, Stanford University"
+  location         : "Stanford, California"
   employer         :
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "sahasrajit1998[at]gmail.com"
