@@ -9,9 +9,17 @@ excerpt: "Research Experience"
 
 Research projects: 
 
+1. **Sequential Deliberation in Participatory Budgeting** <br/>
+    *Advisor: [Prof. Ashish Goel](https://web.stanford.edu/~ashishg/), Department of Management Science and Engineering, Stanford* <br/>
+    *Introduction*: We consider the problem of seqential deliberation in participatory budgeting where randomly sampled agents bargain in rounds with the outcome of the previous round being the diasgreement point for the current round. 
+
+    *We propose a randomised Nash bargaining scheme which achieves a distortion ratio of 1.66.* <br/>
+    *We also show that schemes with a single agent (Randomised Dictator) and two agents (Randomised Diarchy) cannot achieve a distortion ratio better than 2*<br/>
+
+    *Paper submitted to [AAMAS, 2023](https://aamas2023.soton.ac.uk/)*<br/>
 
 
-1. **Query Complexity of Heavy-Hitter distribution| Bachelor's Thesis** (Aug '19 - Jan '20) <br/>
+2. **Query Complexity of Heavy-Hitter distribution| Bachelor's Thesis** (Aug '19 - Jan '20) <br/>
   *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Department of Electrical Engineering, IIT Bombay* <br/>
   *Introduction*: We studied the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ whose probability value is larger than a given threshold $\gamma$, by actively querying an oracle to gain information about a sequence $X_1, X_2, \ldots$ of $i.i.d.$ samples drawn from $\mathcal{P}$ under two different query models $(a)$ each query is an index $i$ and the oracle return the value $X_i$ and $(b)$ each query is a pair $(i,j)$ and the oracle gives a binary answer confirming if $X_i = X_j$ or not.<br/>
   * We propose upper bounds on the query complexity of our algorithm and also derive "matching" lower bounds on any optimal algorithm under both the query models.<br/>
@@ -20,7 +28,7 @@ Research projects:
   * [Paper](https://arxiv.org/abs/2005.14425) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
 
 
-2. **Thoerems in redundancies in multi-tasking| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf)\]** (Jan '20 - Ongoing) <br/>
+3. **Thoerems in redundancies in multi-tasking| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf)\]** (Jan '20 - Ongoing) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
    *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs(tasks) and $c$ servers with $k$ distinct jobs in each server with each job being present in $r$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a set of $x$ servers chosen uniformly at random return their jobs.
    * We prove that the expectation of the number of distinct jobs is same irrespective of the distribution chosen.<br/>
@@ -28,7 +36,7 @@ Research projects:
    * We also show that constructions using Balanced Incomplete Block Designs achieved the above requirement for certain values of $n$ and $k$.<br/>   
 
 
-3. **Straggler mitigation under gradient coding| \[[Report](https://sahasrajit123.github.io/files/partial_gradient_coding_extended.pdf)\]** (Sep '20 - Ongoing) <br/>
+4. **Straggler mitigation under gradient coding| \[[Report](https://sahasrajit123.github.io/files/partial_gradient_coding_extended.pdf)\]** (Sep '20 - Ongoing) <br/>
    *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay* <br/>
    *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
    * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
