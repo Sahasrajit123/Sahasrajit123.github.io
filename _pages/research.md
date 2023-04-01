@@ -26,7 +26,7 @@ Research projects:
   * [Paper](https://arxiv.org/abs/2005.14425) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
 
 
-3. **Thoerems in redundancies in multi-tasking| \[[Report](https://sahasrajit123.github.io/files/report_RnD.pdf)\]** (Jan '20 - Ongoing) <br/>
+3. **Thoerems in redundancies in multi-tasking ** (Jan '20 - Ongoing) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
    *Introduction* : We study the problem of redundancies during distributed computation. We consider a problem of $n$ jobs(tasks) and $c$ servers with $k$ distinct jobs in each server with each job being present in $r$ servers. We attempt to create distributions to ensure minimum redundancies in jobs when a set of $x$ servers chosen uniformly at random return their jobs.
    * We prove that the expectation of the number of distinct jobs is same irrespective of the distribution chosen.<br/>
