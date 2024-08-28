@@ -11,9 +11,9 @@ author_profile: true
  -->
 1. [Ashish Goel](https://web.stanford.edu/~ashishg/)<sup>*</sup>, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang/home)<sup>*</sup>, [Aleksandra Korolava](https://www.korolova.com/)<sup>*</sup>, [Kamesh Munagala](https://www.kameshmunagala.org/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>, "On Differential Privacy with Multiple Selections," submitted to [ITCS '25](http://itcs-conf.org/) [Paper](https://arxiv.org/abs/2407.14641).
 
-2.  **Sahasrajit Sarmasarkar**, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang/home),[Ashish Goel](https://web.stanford.edu/~ashishg/), [Aleksandra Korolava](https://www.korolova.com/), [Kamesh Munagala](https://www.kameshmunagala.org/), "Multi-Selection for Private Recommendation Systems," submitted to [WSDM '25](https://www.wsdm-conference.org/2025/) [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing).
+2.  **Sahasrajit Sarmasarkar**, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang/home), [Ashish Goel](https://web.stanford.edu/~ashishg/), [Aleksandra Korolava](https://www.korolova.com/), [Kamesh Munagala](https://www.kameshmunagala.org/), "Multi-Selection for Private Recommendation Systems," submitted to [WSDM '25](https://www.wsdm-conference.org/2025/) [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing).
 
-3. **Sahasrajit Sarmasarkar**<sup>*</sup>, [Mohak Goyal](https://sites.google.com/view/mohakg/home)<sup>*</sup>, "Metric Distortion under Probabilistic Voting," submitted to [NeurIPS 2024](https://neurips.cc/) [Paper](https://arxiv.org/abs/2405.14223).
+3. **Sahasrajit Sarmasarkar**<sup>*</sup> and [Mohak Goyal](https://sites.google.com/view/mohakg/home)<sup>*</sup>, "Metric Distortion under Probabilistic Voting," submitted to [NeurIPS 2024](https://neurips.cc/) [Paper](https://arxiv.org/abs/2405.14223).
 
 4. [Mohak Goyal](https://sites.google.com/view/mohakg/home)<sup>*</sup>, [Sukolsak Sakshuwong](https://sukolsak.com/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup> and [Ashish Goel](https://web.stanford.edu/~ashishg/), "Low Sample Complexity Participatory Budgeting," accepted at [International Colloquium on Automata, Languages and Programming (ICALP), 2023](https://icalp2023.cs.upb.de/) [Paper](https://arxiv.org/abs/2302.05810).
 
