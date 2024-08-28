@@ -11,7 +11,7 @@ author_profile: true
  -->
 1. Ashish Goel<sup>*</sup>, Zhihao Jiang<sup>*</sup>, Aleksandra Korolova<sup>*</sup>, Kamesh Munagala<sup>*</sup>, <u>Sahasrajit Sarmasarkar<sup>*</sup></u>, "On Differential Privacy with Multiple Selections," submitted to [ITCS '25](http://itcs-conf.org/) [Paper](https://arxiv.org/abs/2407.14641).
 
-2.  Sahasrajit Sarmasarkar, Zhihao Jiang,Ashish Goel, Aleksandra Korolova**, Kamesh Munagala, "Multi-Selection for Private Recommendation Systems," submitted to [WSDM '25](https://www.wsdm-conference.org/2025/) [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing).
+2.  Sahasrajit Sarmasarkar, Zhihao Jiang,Ashish Goel, Aleksandra Korolova, Kamesh Munagala, "Multi-Selection for Private Recommendation Systems," submitted to [WSDM '25](https://www.wsdm-conference.org/2025/) [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing).
 
 3. Sahasrajit Sarmasarkar<sup>*</sup>, Mohak Goyal<sup>*</sup>, "Metric Distortion under Probabilistic Voting," submitted to [NeurIPS 2024](https://neurips.cc/) [Paper](https://arxiv.org/abs/2405.14223).
 

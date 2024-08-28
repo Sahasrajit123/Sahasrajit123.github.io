@@ -11,7 +11,21 @@ My undergrad projects may be classified into a) **theoretical research** and b) 
 
 <!-- * We propose upper bounds on the query complexity of our algorithm and also derive "matching" lower bounds on any optimal algorithm under both the query models.<br/>
   * We also consider noisy versions of the two query models and propose upper bounds on algorithms to estimate the desired subset of elements.<br/>
-  * We derive upper bounds on algorithms for an alternate version of this problem where we wish to identify the subset of support elements which is an "outlier" i.e, whose support probability lies above $k$ standard deviations of the mean and design lower bounds on any optimal algorithm under the first query model.<br/> -->
+  * We derive upper bounds on algorithms for an alternate version of this problem where we wish to identify the subset of support elements which is an "outlier" i.e, whose support probability lies above $k$ standard deviations of the mean and design lower bounds on any optimal algorithm under the first query model.<br/> 
+* We show that assignments based on balanced incomplete block designs ensure the variance of the number of distinct jobs would be the least amongst all distributions.<br/>
+   * Furthermore, assignments based on repetition coding ensure the variance of the number of distinct jobs is the largest<br/> 
+        We prove that the expectation of the number of distinct jobs is same irrespective of the assignment chosen.<br/>
+    Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
+   * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
+   * Proved that the above scheme is "optimal" in the number of gradients assigned to any worker under certain constraints on $n,l$ and $s$.<br/>
+   * We also simulate such schemes using different delay model on machines and show empirically that such schemes may indeed converge faster than full recovery schemes and the ones which don't use any coding.<br/>
+   * [Paper](https://arxiv.org/abs/2102.10163) presented at [ISIT, 2021](https://2021.ieee-isit.org/) and [Extended version accepted at IEEE-TCOM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26).
+    * Implemented a pipelined design for convolving a kernel with an image stored in a shared memory.<br/>
+  * Parallelized the operation using multiple engines which can fetch the image through pipes and perform convolution to reduce computation time and utilize the entire memory bandwidth.<br/>
+* Pipelined RISC processor implementation (Oct '18 - Nov '18)<br/>
+  Employed hazard-mitigation, operand-forwarding techniques to design a six stage execution pipeline and synthesized on Altera Deo-Nano FPGA Board running at 50 MHz.<br/>
+  * Superscaler processor implementation (Apr '19 - May '19)<br/>
+  Designed an out of order execution engine consisting of two way fetch supported by specialised execution engines, reorder buffer, register renaming and reservation station to extract instruction level parallelism.<br/>-->
 
 **Theoretical research projects**:
 
@@ -19,27 +33,27 @@ We focussed on problems related to gradient coding, distributed computing and so
 
 - **Query Complexity of Heavy-Hitter distribution** (Aug '19 - Jan '20) <br/>
   *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Department of Electrical Engineering, IIT Bombay* <br/>
-  **Objective**: We investigated the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ with probabilities exceeding a given threshold $\gamma$, using two distinct query models under a fixed confidence. In the first model, a query $t$ provides the realization of the random variable $X_t$. In the second model, a query $(i,j)$ reveals whether $X_i$ is equal to $X_j$. We provide upper and lower bounds under both the query models.
+  * **Objective**: We investigated the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ with probabilities exceeding a given threshold $\gamma$, using two distinct query models under a fixed confidence. In the first model, a query $t$ provides the realization of the random variable $X_t$. In the second model, a query $(i,j)$ reveals whether $X_i$ is equal to $X_j$. We provide upper and lower bounds under both the query models.
   * **Authors:** Sahasrajit Sarmasarkar, Kota Srinivas Reddy and Nikhil Karamchandani
   * [Paper](https://arxiv.org/abs/2005.14425) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
 
 
-- **Optimal Moments on Redundancies in Noisy Parallel Computing Setup** (Jan '20 - Jan '21) <br/>
+- **Optimal Moments on Redundancies in Noisy Parallel Computing Setup**| [Paper](https://arxiv.org/abs/2402.12584) (Jan '20 - Jan '21) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
-   **Objective** : The master assigns $n$ jobs(tasks) to $c$ servers with $k$ distinct jobs in each server with each job being present in exactly $r$ servers. The goal is to ensure that the master receives most of jobs when each server is equally likely to straggle.
-   * We prove that the expectation of the number of distinct jobs is same irrespective of the assignment chosen.<br/>
-   * We show that assignments based on balanced incomplete block designs ensure the variance of the number of distinct jobs would be the least amongst all distributions.<br/>
-   * Furthermore, assignments based on repetition coding ensure the variance of the number of distinct jobs is the largest<br/>
-   * [Paper](https://arxiv.org/abs/2402.12584)
+   * **Objective**: We consider a setup where the master assigns $n$ jobs(tasks) to $c$ servers with $k$ distinct jobs in each server with each job being present in exactly $r$ servers. The goal is to ensure that the master receives most of jobs when each server is equally likely to straggle and we show balanced incomplete block designs and repitition coding based assignments attain the least and the largest variance respectively. 
+   * **Authors:** Sahasrajit Sarmasarkar and Harish Pillai
+   
+
 
 - **Straggler mitigation under gradient coding** (Sep '20 - Sep '21) <br/>
    *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay* <br/>
-   *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
-   * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
-   * Proved that the above scheme is "optimal" in the number of gradients assigned to any worker under certain constraints on $n,l$ and $s$.<br/>
-   * We also simulate such schemes using different delay model on machines and show empirically that such schemes may indeed converge faster than full recovery schemes and the ones which don't use any coding.<br/>
+   * **Objective**: We consider the problem of gradient descent where the master does not compute the sum of gradients across all $n$ data points but sum of any $\alpha$ fraction of them suffices. We study this problem as a distributed coding problem where each child server has access to some gradients and it sends their linear combination to the server. We show the optimality of certain schemes. Further, we show empirically that such schemes may indeed converge faster than typical baselines.
+   * **Authors:** Sahasrajit Sarmasarkar, Lalitha Vadlamani and Sahasrajit Sarmasarkar
    * [Paper](https://arxiv.org/abs/2102.10163) presented at [ISIT, 2021](https://2021.ieee-isit.org/) and [Extended version accepted at IEEE-TCOM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26).
+ 
 
+   <!-- 
+ -->
 
 
 **Digital System Design Work**:
@@ -55,23 +69,19 @@ We focussed on problems related to gradient coding, distributed computing and so
 
 - **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
    *Guide: [Prof. Madhav Desai](https://www.ee.iitb.ac.in/web/people/faculty/home/madhav), EE, IIT-B* <br/>
-   *Introduction*: The goal in this project was to build an efficient hardware accelerator which exploits parallelism.
-  * Implemented a pipelined design for convolving a kernel with an image stored in a shared memory.<br/>
-  * Parallelized the operation using multiple engines which can fetch the image through pipes and perform convolution to reduce computation time and utilize the entire memory bandwidth.<br/>
+   *Introduction*: The goal in this project was to build an efficient hardware accelerator which exploits parallelism and we implemented a pipelined design for convolving a kernel with an image stored in shared memory. Parallelized the operation using multiple engines which can fetch the image through pipes and perform convolution to reduce computation time and utilize the entire memory bandwidth.
+  
 
 
   
-- **Superscaler and Pipelined Processor Design** (Oct '18 - May '19) <br/>
+- **Superscaler and Pipelined Processor Design| \[[Github repository](https://github.com/mohilp1998/superscalar_architecture)\] ** (Oct '18 - May '19) <br/>
    *Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/), EE, IIT-B* <br/>
-   *Introduction*: The goal in this project was to implement general purpose micro-processor designs with an instruction set architecture having 16 diverse instructions in VHDL.
-  * Pipelined RISC processor implementation (Oct '18 - Nov '18)<br/>
-  Employed hazard-mitigation, operand-forwarding techniques to design a six stage execution pipeline and synthesized on Altera Deo-Nano FPGA Board running at 50 MHz.<br/>
-  * Superscaler processor implementation (Apr '19 - May '19)<br/>
-  Designed an out of order execution engine consisting of two way fetch supported by specialised execution engines, reorder buffer, register renaming and reservation station to extract instruction level parallelism.<br/>  
+   *Introduction*: The goal in this project was to implement general purpose micro-processor designs with an instruction set architecture having 16 diverse instructions in VHDL. Worked in the design of a pipelined RISC processor that employed hazard-mitigation, operand-forwarding techniques to design a six stage execution pipeline and synthesized on Altera Deo-Nano FPGA Board running at 50 MHz. Also designed an out of order execution superscaler engine consisting of two way fetch supported by specialised execution engines, reorder buffer, register renaming and reservation station to extract instruction level parallelism.
+  
 
 
-- **IIT Bombay Racing (Electric Subsystem)** (Academic year '17-'19) <br/>
-   A cross functional team of 60+ students from 7 engineering disciplines which designs and fabricates an electric race car for Formula Student competition held annually at Silverstone, UK.<br/>
+- **[IIT Bombay Racing](https://iitbracing.org) (Electric Subsystem)** (Academic year '17-'19) <br/>
+   Worked as a junior design engineer and a design enginner in a cross functional team of 60+ students from 7 engineering disciplines which designs and fabricates an electric race car for Formula Student competition held annually at Silverstone, UK.<br/>
   * Designed the harness of the whole car keeping into considerations the current and voltage rating of each input signal in each board.<br/>
   * Designed and tested the CAN (Controlled Area Network) node using CAN enabled micro-controller atmega-16M1 in embedded C using interrupts for sending and receiving messages.<br/>
   * Developed codes using interrupts in ECU (embedded C programming) for reading data from CAN bus, processing and sending control commands to BLDC (Brushless DC motors) on CAN bus.<br/> 
