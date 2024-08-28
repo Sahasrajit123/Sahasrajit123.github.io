@@ -16,11 +16,12 @@ My research work at Stanford may be broadly classfied into two groups a) **socia
 
 
 
-<center> ## 1. **Machine learning:** </center>
+<h2 style="text-align: center;">1. Machine Learning</h2>
+
 
 In this work, we focus on prediction of multiple $k$ items in the context of recommendation systems.
 
-- **Differential Privacy with Multiple Selection**
+- **Differential Privacy with Multiple Selections**
 
     * **Objective** We consider a setup where an user sends a differentially private query to the server and propose a ``multi-selection'' architecture where the server sends multiple items and user chooses the one that best fits it. While, the user feature is one-dimensional, we show that Laplace noise addition is an optimal noise addition mechanism for the user and its error scales inversely with the number of items $k$.
 
@@ -41,7 +42,7 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
     * **Authors** Chirag Pabbaraju<sup>*</sup>, Sahasrajit Sarmasarkar*
     * Paper under preparation 
 
-<center> ## 2. **Social choice** </center>
+<h2 style="text-align: center;">2. Social Choice</h2>
 
 This area focuses on combining individual preferences to make collective decisions and measure social well-being. 
 
