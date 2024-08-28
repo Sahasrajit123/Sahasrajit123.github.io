@@ -1,36 +1,71 @@
 ---
-title: "Projects"
+title: "Undergraduate Projects"
 permalink: /projects/
 author_profile: true
 use_math: true
-title: "Projects"
+title: "Undergrad Projects"
 excerpt: "Projects"
 ---
 
-Technical Projects:
-1. **Iterative decoding algorithms on modern codes| \[[Report](https://Sahasrajit123.github.io/files/Godzilla.pdf)\]** (Jan '20- May '20)<br/>
+My undergrad projects may be classified into theoretical research and empirical/system design work. 
+
+<!-- * We propose upper bounds on the query complexity of our algorithm and also derive "matching" lower bounds on any optimal algorithm under both the query models.<br/>
+  * We also consider noisy versions of the two query models and propose upper bounds on algorithms to estimate the desired subset of elements.<br/>
+  * We derive upper bounds on algorithms for an alternate version of this problem where we wish to identify the subset of support elements which is an "outlier" i.e, whose support probability lies above $k$ standard deviations of the mean and design lower bounds on any optimal algorithm under the first query model.<br/> -->
+
+Theoretical research projects:
+
+We focussed on problems related to gradient coding, distributed computing and some problems in heavy-hitter estimation. 
+
+- **Query Complexity of Heavy-Hitter distribution** (Aug '19 - Jan '20) <br/>
+  *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Department of Electrical Engineering, IIT Bombay* <br/>
+  **Objective**: We investigated the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ with probabilities exceeding a given threshold $\gamma$, using two distinct query models under a fixed confidence. In the first model, a query $t$ provides the realization of the random variable $X_t$. In the second model, a query $(i,j)$ reveals whether $X_i$ is equal to $X_j$. We provide upper and lower bounds under both the query models.
+  * **Authors** Sahasrajit Sarmasarkar, Kota Srinivas Reddy and Nikhil Karamchandani
+  * [Paper](https://arxiv.org/abs/2005.14425) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
+
+
+- **Optimal Moments on Redundancies in Noisy Parallel Computing Setup** (Jan '20 - Jan '21) <br/>
+   *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
+   **Objective** : The master assigns $n$ jobs(tasks) to $c$ servers with $k$ distinct jobs in each server with each job being present in exactly $r$ servers. The goal is to ensure that the master receives most of jobs when each server is equally likely to straggle.
+   * We prove that the expectation of the number of distinct jobs is same irrespective of the assignment chosen.<br/>
+   * We show that assignments based on balanced incomplete block designs ensure the variance of the number of distinct jobs would be the least amongst all distributions.<br/>
+   * Furthermore, assignments based on repetition coding ensure the variance of the number of distinct jobs is the largest<br/>
+   * [Paper](https://arxiv.org/abs/2402.12584)
+
+- **Straggler mitigation under gradient coding| \[[Report](https://sahasrajit123.github.io/files/partial_gradient_coding_extended.pdf)\]** (Sep '20 - Ongoing) <br/>
+   *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay* <br/>
+   *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
+   * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
+   * Proved that the above scheme is "optimal" in the number of gradients assigned to any worker under certain constraints on $n,l$ and $s$.<br/>
+   * We also simulate such schemes using different delay model on machines and show empirically that such schemes may indeed converge faster than full recovery schemes and the ones which don't use any coding.<br/>
+   * [Paper](https://arxiv.org/abs/2102.10163) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
+
+
+
+Empirical/System Design Work:
+<!-- 1. **Iterative decoding algorithms on modern codes| \[[Report](https://Sahasrajit123.github.io/files/Godzilla.pdf)\]** (Jan '20- May '20)<br/>
    *Guide: [Prof. Manoj Gopalkrishnan](https://www.ee.iitb.ac.in/~manojg), [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), EE, IIT-B*<br/>
    *Introduction*: The goal in this project was to do an existing literature survey on modern codes specifically to do with LPDC (Low Density Parity Check) codes and turbo codes.
    * Studied the classical message passing algorithm on non-cyclic codes and the convergence in error probability of belief propagation algorithm on certain ensembles of LDPC codes under certain symmetric channels.<br/>
    * Read up on EXIT charts to get an information theoretic viewpoint of the decoding process and went through the convergence of the peeling decoder of LDPC codes under Binary erasure channel.<br/>
    * Studied turbo codes, their representations as factor graphs , the density evolution process during iterative decoding , stability condition, their corresponding EXIT charts and their weight distribution.<br/>
-   
+    -->
 
-2. **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
+1. **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
    *Guide: [Prof. Madhav Desai](https://www.ee.iitb.ac.in/web/people/faculty/home/madhav), EE, IIT-B* <br/>
    *Introduction*: The goal in this project was to build an efficient hardware accelerator which exploits parallelism.
   * Implemented a pipelined design for convolving a kernel with an image stored in a shared memory.<br/>
   * Parallelized the operation using multiple engines which can fetch the image through pipes and perform convolution to reduce computation time and utilize the entire memory bandwidth.<br/>
 
-3.  **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
+<!-- 3.  **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
    *Texas Instruments, Bangalore* <br/>
    * Devised algorithms for connections of input and output pins of full adder cells so as to minimise the maximum delay of the whole network.<br/>
    * Worked on buffer insertion problem and used linear programming to insert buffers so that the whole network could be wave-pipelined.<br/>
    * Worked on cell-selection problem to meet a certain delay target of the whole network with the lowest cost.<br/>
    * Implemented all the above algorithms using actual delay data of cells as per 65nm node technology to incorporate slew and loading of cells and generalised the above two algorithms to any combinational network.<br/>
-
+ -->
   
-4. **Superscaler and Pipelined Processor Design** (Oct '18 - May '19) <br/>
+2. **Superscaler and Pipelined Processor Design** (Oct '18 - May '19) <br/>
    *Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/), EE, IIT-B* <br/>
    *Introduction*: The goal in this project was to implement general purpose micro-processor designs with an instruction set architecture having 16 diverse instructions in VHDL.
   * Pipelined RISC processor implementation (Oct '18 - Nov '18)<br/>
@@ -39,20 +74,20 @@ Technical Projects:
   Designed an out of order execution engine consisting of two way fetch supported by specialised execution engines, reorder buffer, register renaming and reservation station to extract instruction level parallelism.<br/>  
 
 
-5. **IIT Bombay Racing (Electric Subsystem)** (Academic year '17-'19) <br/>
+3. **IIT Bombay Racing (Electric Subsystem)** (Academic year '17-'19) <br/>
    A cross functional team of 60+ students from 7 engineering disciplines which designs and fabricates an electric race car for Formula Student competition held annually at Silverstone, UK.<br/>
   * Designed the harness of the whole car keeping into considerations the current and voltage rating of each input signal in each board.<br/>
   * Designed and tested the CAN (Controlled Area Network) node using CAN enabled micro-controller atmega-16M1 in embedded C using interrupts for sending and receiving messages.<br/>
   * Developed codes using interrupts in ECU (embedded C programming) for reading data from CAN bus, processing and sending control commands to BLDC (Brushless DC motors) on CAN bus.<br/> 
    
  
-6. **Stereo-Camera Calibration & Image Rectification on FPGA** (Summer '18) <br/>
+<!-- 6. **Stereo-Camera Calibration & Image Rectification on FPGA** (Summer '18) <br/>
    *Guide: [Prof. Sachin Patkar](https://www.ee.iitb.ac.in/web/people/faculty/home/patkar), EE, IIT-B* <br/>
    * Developed a dual OV7670 camera setup compatible with De0-Nano Board (Cyclone IV-E FPGA).<br/>
    * Used FTDI chip FT245RL for sending bytes captured by camera in default YUV format through serial port communication with PC by writing VHDL and Verilog codes.<br/>
    * Used OpenCV library on C++ for image construction from the received bytes on the serial port of PC.<br/>  
     
-
+ -->
      
     
    

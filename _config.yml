@@ -83,10 +83,10 @@ analytics:
 author:
   name             : "Sahasrajit Sarmasarkar"
   avatar           : "Sahasrajit.jpg" ## Image 
-  bio              : "Second year Ph.D. Student, Electrical Engineering, Stanford University"
+  bio              : "Ph.D. Student, Electrical Engineering, Stanford University"
   location         : "Stanford, California"
   employer         :
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=RA9BF4gAAAAJ&hl=en"
   email            : "sahasrajit1998[at]gmail.com"
   uri              :
   bitbucket        :
