@@ -85,7 +85,9 @@ We focussed on problems related to gradient coding, distributed computing and so
     
  -->
 
- <!-- 
+ 
+
+ <!--- 
 
  3.  **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
    *Texas Instruments, Bangalore* <br/>
@@ -93,8 +95,8 @@ We focussed on problems related to gradient coding, distributed computing and so
    * Worked on buffer insertion problem and used linear programming to insert buffers so that the whole network could be wave-pipelined.<br/>
    * Worked on cell-selection problem to meet a certain delay target of the whole network with the lowest cost.<br/>
    * Implemented all the above algorithms using actual delay data of cells as per 65nm node technology to incorporate slew and loading of cells and generalised the above two algorithms to any combinational network.<br/>
- -->
-     
+
+    --->  
     
    
  
