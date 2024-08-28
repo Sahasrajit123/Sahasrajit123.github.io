@@ -23,7 +23,7 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
 
 - **Differential Privacy with Multiple Selections**
 
-    * **Objective** We consider a scenario where a user sends a differentially private query to the server and propose a "multi-selection" architecture in which the server returns multiple items, allowing the user to choose the best fit. When the user's feature is one-dimensional, we demonstrate that adding Laplace noise is an optimal mechanism, with the error decreasing inversely with the number of recommended items $k$.
+    * **Objective:** We consider a scenario where a user sends a differentially private query to the server and propose a "multi-selection" architecture in which the server returns multiple items, allowing the user to choose the best fit. When the user's feature is one-dimensional, we demonstrate that adding Laplace noise is an optimal mechanism, with the error decreasing inversely with the number of recommended items $k$.
     * **Authors:** Ashish Goel<sup>*</sup>, Zhihao Jiang<sup>*</sup>, Aleksandra Korolova<sup>*</sup>, Kamesh Munagala<sup>*</sup> and Sahasrajit Sarmasarkar<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2407.14641) submitted to [ITCS 2025](http://itcs-conf.org/).
 
@@ -36,7 +36,7 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
 
 - **A Characterization of List Learnability for Agnostic and Realizable Regression**
 
-    * **Objective** In this work, we study the problem of list PAC learning (for both agnostic and realizable regression) where the aim of a learner is to learn to predict a set of $k$ labels with the loss being measured with respect to the closest label. We identify two dimensions of the hypothesis class—referred to as the $k$ fat-shattering dimension and the $k$ OIG dimension—whose finiteness is both necessary and sufficient for agnostic and realizable regression, respectively. 
+    * **Objective:** In this work, we study the problem of list PAC learning (for both agnostic and realizable regression) where the aim of a learner is to learn to predict a set of $k$ labels with the loss being measured with respect to the closest label. We identify two dimensions of the hypothesis class—referred to as the $k$ fat-shattering dimension and the $k$ OIG dimension—whose finiteness is both necessary and sufficient for agnostic and realizable regression, respectively. 
 
     * **Authors:** Chirag Pabbaraju<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup>
     * Paper under preparation 
@@ -47,14 +47,14 @@ This area focuses on combining individual preferences to make collective decisio
 
 - **Metric Distortion under Probabilistic Voting**
 
-    * **Objective** We extend the study of metric distortion in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes Plackett-Luce (PL). For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that Copeland's distortion is at most 2, whereas that of Random Dictator (RD) scales with the square root of the number of candidates. However in the classical model, where RD beats Copeland with a distortion of 3 versus 5. 
+    * **Objective:** We extend the study of metric distortion in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes Plackett-Luce (PL). For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that Copeland's distortion is at most 2, whereas that of Random Dictator (RD) scales with the square root of the number of candidates. However in the classical model, where RD beats Copeland with a distortion of 3 versus 5. 
 
     * **Authors:** Sahasrajit Sarmasarkar<sup>*</sup> and Mohak Goyal<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2405.14223) under review at [Neurips 2024](https://neurips.cc/)
 
 - **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**
 
-    * **Objective** We investigate the challenge of participatory budgeting through menu-based preference elicitation, focusing on capturing project interactions, such as substitution and complementarity, from voters. We introduce an innovative preference elicitation approach that enables voters to express how their utilities from projects within specific 'groups' interact. In this context, we examine the property of strategy-proofness and present a fixed-parameter tractable (FPT) algorithm for maximizing social welfare.
+    * **Objective:** We investigate the challenge of participatory budgeting through menu-based preference elicitation, focusing on capturing project interactions, such as substitution and complementarity, from voters. We introduce an innovative preference elicitation approach that enables voters to express how their utilities from projects within specific 'groups' interact. In this context, we examine the property of strategy-proofness and present a fixed-parameter tractable (FPT) algorithm for maximizing social welfare.
 
     * **Authors:** Mohak Goyal<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup> and Ashish Goel
     * [Paper](https://link.springer.com/chapter/10.1007/978-3-031-48974-7_19) presented at [WINE 2023](https://wine2023.shanghaitech.edu.cn/).
