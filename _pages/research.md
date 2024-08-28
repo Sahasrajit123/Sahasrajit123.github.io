@@ -23,14 +23,13 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
 
 - **Differential Privacy with Multiple Selections**
 
-    * **Objective** We consider a setup where an user sends a differentially private query to the server and propose a ``multi-selection'' architecture where the server sends multiple items and user chooses the one that best fits it. While, the user feature is one-dimensional, we show that Laplace noise addition is an optimal noise addition mechanism for the user and its error scales inversely with the number of items $k$.
-
+    * **Objective** We consider a scenario where a user sends a differentially private query to the server and propose a "multi-selection" architecture in which the server returns multiple items, allowing the user to choose the best fit. When the user's feature is one-dimensional, we demonstrate that adding Laplace noise is an optimal mechanism, with the error decreasing inversely with the number of recommended items $k$.
     * **Authors:** Ashish Goel<sup>*</sup>, Zhihao Jiang<sup>*</sup>, Aleksandra Korolova<sup>*</sup>, Kamesh Munagala<sup>*</sup> and Sahasrajit Sarmasarkar<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2407.14641) submitted to [ITCS 2025](http://itcs-conf.org/).
 
 - **Multi-Selection for Private Recommendation Systems**
 
-    * **Objective** We propose a multi-selection model for a neural network-based movie recommendation system, trained on the MovieLens 25M dataset, where users submit differentially private queries to the server. Additionally, we introduce a local PCA model that allows users to select a single item from the set of recommended options. Our empirical findings show that with "reasonable" privacy guarantees, our architecture delivers utility quite similar to the non-private case.
+    * **Objective** We introduce a multi-selection model for a neural network-based movie recommendation system, trained on the MovieLens 25M dataset, where users send differentially private queries to the server. Additionally, we develop a local PCA model that enables users to choose a single item from the recommended set. Our empirical results indicate that, with "reasonable" privacy guarantees, our architecture provides utility closely matching that of the non-private scenario.
 
     * **Authors:** Sahasrajit Sarmasarkar, Zhihao Jiang, Ashish Goel, Aleksandra Korolova and Kamesh Munagala
     * [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing) submitted to [WSDM 2025](https://www.wsdm-conference.org/2025/)
