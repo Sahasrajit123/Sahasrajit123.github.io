@@ -47,21 +47,21 @@ This area focuses on combining individual preferences to make collective decisio
 
 - **Metric Distortion under Probabilistic Voting**
 
-    * **Objective:** We extend the study of metric distortion in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes Plackett-Luce (PL). For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that Copeland's distortion is at most 2, whereas that of Random Dictator (RD) scales with the square root of the number of candidates. However in the classical model, where RD beats Copeland with a distortion of 3 versus 5. 
+    * **Objective:** We extend the study of **metric distortion** in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes **Plackett-Luce (PL)**. For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that **Copeland's** distortion is at most 2, whereas that of **Random Dictator (RD)** scales with the square root of the number of candidates. However in the classical model, where **RD beats Copeland** with a distortion of 3 versus 5. 
 
     * **Authors:** **Sahasrajit Sarmasarkar**<sup>*</sup> and [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2405.14223) under review at [Neurips 2024](https://neurips.cc/)
 
 - **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**
 
-    * **Objective:** We investigate the challenge of participatory budgeting through menu-based preference elicitation, focusing on capturing project interactions, such as substitution and complementarity, from voters. We introduce an innovative preference elicitation approach that enables voters to express how their utilities from projects within specific 'groups' interact. In this context, we examine the property of strategy-proofness and present a fixed-parameter tractable (FPT) algorithm for maximizing social welfare.
+    * **Objective:** We investigate the challenge of participatory budgeting through **menu-based** preference elicitation, focusing on capturing **project interactions, such as substitution and complementarity**, from voters. We introduce an innovative preference elicitation approach that enables voters to express how their utilities from projects within specific 'groups' interact. In this context, we examine the property of **strategy-proofness** and present a **fixed-parameter tractable** (FPT) algorithm for maximizing social welfare.
 
     * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup> and [Ashish Goel](https://web.stanford.edu/~ashishg/)
     * [Paper](https://link.springer.com/chapter/10.1007/978-3-031-48974-7_19) presented at [WINE 2023](https://wine2023.shanghaitech.edu.cn/).
 
 - **Low sample complexity participatory budgeting**
 
-    * **Objective:** We study the problem of participatory budgeting where each voter votes for a preferred allocation of projects. We present a PB mechanism that attains a distortion of 1.66 when three votes are randomly sampled by the mechanism. This surpasses the distortion barrier of 2 achieved by the Randomized Dictator and Random Diarchy schemes, which select one and two voters at random from the set, respectively.
+    * **Objective:** We study the problem of **participatory budgeting** where each voter votes for a preferred allocation of projects. We present a PB mechanism that attains a distortion of 1.66 when three votes are randomly sampled by the mechanism. This surpasses the **distortion barrier** of 2 achieved by the **Randomized Dictator and Random Diarchy** schemes, which select one and two voters at random from the set, respectively.
 
     * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>, [Sukolsak Sakshuwong](https://sukolsak.com/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup> and [Ashish Goel](https://web.stanford.edu/~ashishg/)
     * [Paper](https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.70/LIPIcs.ICALP.2023.70.pdf) presented at [ICALP 2023](https://icalp2023.cs.upb.de/).

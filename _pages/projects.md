@@ -39,21 +39,21 @@ We focussed on problems related to **gradient coding, distributed computing** an
 - **Query Complexity of Heavy-Hitter distribution** (Aug '19 - Jan '20) <br/>
   *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Department of Electrical Engineering, IIT Bombay* <br/>
   * **Objective**: We investigated the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ with probabilities exceeding a given threshold $\gamma$, using **two distinct query models** under a fixed confidence. In the first model, a query $t$ provides the realization of the random variable $X_t$. In the second model, a query $(i,j)$ reveals whether $X_i$ is equal to $X_j$. We provide **upper and lower bounds** under both the query models.
-  * **Authors:** Sahasrajit Sarmasarkar, Kota Srinivas Reddy and Nikhil Karamchandani
+  * **Authors:** **Sahasrajit Sarmasarkar**, [Kota Srinivas Reddy](https://sites.google.com/view/ksreddi-publications/) and [Nikhil Karamchandani](https://sites.google.com/site/nikhilkaram/home/)
   * [Paper](https://arxiv.org/abs/2005.14425) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
 
 
 - **Optimal Moments on Redundancies in Noisy Parallel Computing Setup**| [Paper](https://arxiv.org/abs/2402.12584) (Jan '20 - Jan '21) <br/>
    *Guide : [Prof. Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), Deaprtment of Electrical Engineering, IIT Bombay* <br/>
    * **Objective**: We consider a setup where the master assigns $n$ jobs(tasks) to $c$ servers with $k$ distinct jobs in each server with each job being present in exactly $r$ servers. The goal is to ensure that the master receives most of jobs when each server is equally likely to straggle and we show balanced incomplete block designs and repitition coding based assignments attain the least and the largest variance respectively. 
-   * **Authors:** Sahasrajit Sarmasarkar and Harish Pillai
+   * **Authors:** Sahasrajit Sarmasarkar and [Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp)
    
 
 
 - **Straggler mitigation under gradient coding** (Sep '20 - Sep '21) <br/>
    *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay* <br/>
    * **Objective**: We consider the problem of **gradient descent** where the master does not compute the sum of gradients across all $n$ data points but sum of any $\alpha$ fraction of them suffices. We study this problem as a **distributed gradient coding** problem where each child server has access to some gradients and it sends their linear combination to the server and we showed the optimality of some of our schemes. Further, we show empirically that such schemes may indeed converge faster than typical baselines.
-   * **Authors:** Sahasrajit Sarmasarkar, Lalitha Vadlamani and Sahasrajit Sarmasarkar
+   * **Authors:** Sahasrajit Sarmasarkar, [Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v) and [Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/)
    * [Paper](https://arxiv.org/abs/2102.10163) presented at [ISIT, 2021](https://2021.ieee-isit.org/) and [Extended version accepted at IEEE-TCOM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26).
  
 
