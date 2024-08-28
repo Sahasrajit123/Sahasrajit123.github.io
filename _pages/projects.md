@@ -81,7 +81,7 @@ We focussed on problems related to **gradient coding, distributed computing** an
   
 - **Superscaler and Pipelined Processor Design| \[[Github repository](https://github.com/mohilp1998/superscalar_architecture)\]** (Oct '18 - May '19) <br/>
    *Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/), EE, IIT-B* <br/>
-   **Introduction**: Designed a **pipelined RISC** processor that employed **hazard-mitigation, operand-forwarding** techniques and an execution superscaler engine consisting of two way fetch supported by **specialised execution engines, reorder buffer, register renaming and reservation station** to extract instruction level parallelism. 
+   **Introduction**: Designed a **pipelined RISC** processor that employed **hazard-mitigation, operand-forwarding** techniques and a **superscaler** processor consisting of two way fetch supported by **specialised execution engines, reorder buffer, register renaming and reservation station** to extract instruction level parallelism. 
    <!-- Verified the running of these designs on a simulator and further synthesized on **Altera Deo-Nano FPGA** Board running at 50 MHz. -->
   
 
