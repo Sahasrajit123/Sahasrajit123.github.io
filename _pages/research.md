@@ -12,11 +12,11 @@ excerpt: "Research Experience"
 
 Research projects: 
 
-My research work at Stanford may be broadly classfied into two groups a) **social choice** and b) machine learing focussing on the selection/learning of multiple items.
+My research work at Stanford may be broadly classfied into two groups a) **social choice** and b) **machine learing** focussing on the selection/learning of multiple items.
 
 
 
-<h2 style="text-align: center;">1. Machine Learning</h2>
+<h2 style="text-align: left;">1. Machine Learning</h2>
 
 
 In this work, we focus on prediction of multiple $k$ items in the context of recommendation systems.
@@ -25,7 +25,7 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
 
     * **Objective** We consider a setup where an user sends a differentially private query to the server and propose a ``multi-selection'' architecture where the server sends multiple items and user chooses the one that best fits it. While, the user feature is one-dimensional, we show that Laplace noise addition is an optimal noise addition mechanism for the user and its error scales inversely with the number of items $k$.
 
-    * **Authors:** Ashish Goel<sup>*</sup>, Zhihao Jiang<sup>*</sup>, Aleksandra Korolova<sup>*</sup>, Kamesh Munagala<sup>*</sup> and Sahasrajit Sarmasarkar*
+    * **Authors:** Ashish Goel<sup>*</sup>, Zhihao Jiang<sup>*</sup>, Aleksandra Korolova<sup>*</sup>, Kamesh Munagala<sup>*</sup> and Sahasrajit Sarmasarkar<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2407.14641) submitted to [ITCS 2025](http://itcs-conf.org/).
 
 - **Multi-Selection for Private Recommendation Systems**
@@ -42,7 +42,7 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
     * **Authors** Chirag Pabbaraju<sup>*</sup>, Sahasrajit Sarmasarkar*
     * Paper under preparation 
 
-<h2 style="text-align: center;">2. Social Choice</h2>
+<h2 style="text-align: left;">2. Social Choice</h2>
 
 This area focuses on combining individual preferences to make collective decisions and measure social well-being. 
 
@@ -57,14 +57,14 @@ This area focuses on combining individual preferences to make collective decisio
 
     * **Objective** We investigate the challenge of participatory budgeting through menu-based preference elicitation, focusing on capturing project interactions, such as substitution and complementarity, from voters. We introduce an innovative preference elicitation approach that enables voters to express how their utilities from projects within specific 'groups' interact. In this context, we examine the property of strategy-proofness and present a fixed-parameter tractable (FPT) algorithm for maximizing social welfare.
 
-    * **Authors** Mohak Goyal<sup>*</sup>, Sahasrajit Sarmasarkar* and Ashish Goel
+    * **Authors** Mohak Goyal<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup> and Ashish Goel
     * [Paper](https://link.springer.com/chapter/10.1007/978-3-031-48974-7_19) presented at [WINE 2023](https://wine2023.shanghaitech.edu.cn/).
 
 - **Low sample complexity participatory budgeting**
 
     * **Objective:** We study the problem of participatory budgeting where each voter votes for a preferred allocation of projects. We present a PB mechanism that attains a distortion of 1.66 when three votes are randomly sampled by the mechanism. This surpasses the distortion barrier of 2 achieved by the Randomized Dictator and Random Diarchy schemes, which select one and two voters at random from the set, respectively.
 
-    * **Authors** Mohak Goyal<sup>*</sup>, Sukolsak Sakshuwong<sup>*</sup>, Sahasrajit Sarmasarkar* and Ashish Goel
+    * **Authors** Mohak Goyal<sup>*</sup>, Sukolsak Sakshuwong<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup> and Ashish Goel
     * [Paper](https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.70/LIPIcs.ICALP.2023.70.pdf) presented at [ICALP 2023](https://icalp2023.cs.upb.de/).
 
 
