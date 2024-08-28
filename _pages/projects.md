@@ -32,7 +32,7 @@ We focussed on problems related to gradient coding, distributed computing and so
    * Furthermore, assignments based on repetition coding ensure the variance of the number of distinct jobs is the largest<br/>
    * [Paper](https://arxiv.org/abs/2402.12584)
 
-- **Straggler mitigation under gradient coding| \[[Report](https://sahasrajit123.github.io/files/partial_gradient_coding_extended.pdf)\]** (Sep '20 - Ongoing) <br/>
+- **Straggler mitigation under gradient coding** (Sep '20 - Ongoing) <br/>
    *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay* <br/>
    *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
    * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
