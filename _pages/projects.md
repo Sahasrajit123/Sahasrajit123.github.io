@@ -81,24 +81,21 @@ We focussed on problems related to gradient coding, distributed computing and so
    *Guide: [Prof. Sachin Patkar](https://www.ee.iitb.ac.in/web/people/faculty/home/patkar), EE, IIT-B* <br/>
    * Developed a dual OV7670 camera setup compatible with De0-Nano Board (Cyclone IV-E FPGA).<br/>
    * Used FTDI chip FT245RL for sending bytes captured by camera in default YUV format through serial port communication with PC by writing VHDL and Verilog codes.<br/>
-   * Used OpenCV library on C++ for image construction from the received bytes on the serial port of PC.<br/>  
-    
- -->
+   * Used OpenCV library on C++ for image construction from the received bytes on the serial port of PC.<br/>
 
- 
-
- <!--- 
-
- 3.  **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
+   3.  **Carry Save Adder Network Optimisations| Summer Internship** (May '19 - July'19) <br/>
    *Texas Instruments, Bangalore* <br/>
    * Devised algorithms for connections of input and output pins of full adder cells so as to minimise the maximum delay of the whole network.<br/>
    * Worked on buffer insertion problem and used linear programming to insert buffers so that the whole network could be wave-pipelined.<br/>
    * Worked on cell-selection problem to meet a certain delay target of the whole network with the lowest cost.<br/>
    * Implemented all the above algorithms using actual delay data of cells as per 65nm node technology to incorporate slew and loading of cells and generalised the above two algorithms to any combinational network.<br/>
-
-    --->  
+  
     
-   
+ -->
+
+ 
+
+ 
  
 
 <!---
