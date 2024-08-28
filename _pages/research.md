@@ -12,19 +12,19 @@ excerpt: "Research Experience"
 
 Research projects: 
 
-My research work at Stanford may be broadly classfied into two groups one in social choice and one in machine learing (mostly theoretical) focussing on the selection/learning of multiple items.
+My research work at Stanford may be broadly classfied into two groups a) **social choice** and b) machine learing focussing on the selection/learning of multiple items.
 
 
 
-1. **Machine learning:**
+<center> ## 1. **Machine learning:** </center>
 
-In this work, we focus on prediction of multiple $k$ items in the context of recommendation systems where an user may typically be shown multiple items.
+In this work, we focus on prediction of multiple $k$ items in the context of recommendation systems.
 
 - **Differential Privacy with Multiple Selection**
 
     * **Objective** We consider a setup where an user sends a differentially private query to the server and propose a ``multi-selection'' architecture where the server sends multiple items and user chooses the one that best fits it. While, the user feature is one-dimensional, we show that Laplace noise addition is an optimal noise addition mechanism for the user and its error scales inversely with the number of items $k$.
 
-    * **Authors** Ashish Goel*, Zhihao Jiang*, Aleksandra Korolova*, Kamesh Munagala*, Sahasrajit Sarmasarkar* 
+    * **Authors:** Ashish Goel<sup>*</sup>, Zhihao Jiang<sup>*</sup>, Aleksandra Korolova<sup>*</sup>, Kamesh Munagala<sup>*</sup> and Sahasrajit Sarmasarkar*
     * [Paper](https://arxiv.org/abs/2407.14641) submitted to [ITCS 2025](http://itcs-conf.org/).
 
 - **Multi-Selection for Private Recommendation Systems**
@@ -38,32 +38,33 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
 
     * **Objective** In this work, we study the problem of list PAC learning (for both agnostic and realizable regression) where the aim of a learner is to learn to predict a set of $k$ labels with the loss being measured with respect to the closest label. We identify two dimensions of the hypothesis class—referred to as the $k$ fat-shattering dimension and the $k$ OIG dimension—whose finiteness is both necessary and sufficient for agnostic and realizable regression, respectively. 
 
-    * **Authors** Chirag Pabbaraju*, Sahasrajit Sarmasarkar*
+    * **Authors** Chirag Pabbaraju<sup>*</sup>, Sahasrajit Sarmasarkar*
     * Paper under preparation 
 
-2. **Social choice**</br>
+<center> ## 2. **Social choice** </center>
 
 This area focuses on combining individual preferences to make collective decisions and measure social well-being. 
 
-- **Metric Distortion under Probabilistic Voting**</br>
-    
+- **Metric Distortion under Probabilistic Voting**
+
     * **Objective** We extend the study of metric distortion in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes Plackett-Luce (PL). For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that Copeland's distortion is at most 2, whereas that of Random Dictator (RD) scales with the square root of the number of candidates. However in the classical model, where RD beats Copeland with a distortion of 3 versus 5. 
-    * **Authors**  Sahasrajit Sarmasarkar* and Mohak Goyal*
+
+    * **Authors** Sahasrajit Sarmasarkar<sup>*</sup> and Mohak Goyal<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2405.14223) under review at [Neurips 2024](https://neurips.cc/)
 
-- **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**</br>
-    
+- **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**
+
     * **Objective** We investigate the challenge of participatory budgeting through menu-based preference elicitation, focusing on capturing project interactions, such as substitution and complementarity, from voters. We introduce an innovative preference elicitation approach that enables voters to express how their utilities from projects within specific 'groups' interact. In this context, we examine the property of strategy-proofness and present a fixed-parameter tractable (FPT) algorithm for maximizing social welfare.
-    * **Authors** Mohak Goyal*, Sukolsak Sakshuwong*, Sahasrajit Sarmasarkar* and Ashish Goel
+
+    * **Authors** Mohak Goyal<sup>*</sup>, Sahasrajit Sarmasarkar* and Ashish Goel
     * [Paper](https://link.springer.com/chapter/10.1007/978-3-031-48974-7_19) presented at [WINE 2023](https://wine2023.shanghaitech.edu.cn/).
 
--  **Low sample complexity participatory budgeting**</br> 
+- **Low sample complexity participatory budgeting**
+
     * **Objective:** We study the problem of participatory budgeting where each voter votes for a preferred allocation of projects. We present a PB mechanism that attains a distortion of 1.66 when three votes are randomly sampled by the mechanism. This surpasses the distortion barrier of 2 achieved by the Randomized Dictator and Random Diarchy schemes, which select one and two voters at random from the set, respectively.
 
-    * **Authors** Mohak Goyal*, Sukolsak Sakshuwong*, Sahasrajit Sarmasarkar* and Ashish Goel
+    * **Authors** Mohak Goyal<sup>*</sup>, Sukolsak Sakshuwong<sup>*</sup>, Sahasrajit Sarmasarkar* and Ashish Goel
     * [Paper](https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.70/LIPIcs.ICALP.2023.70.pdf) presented at [ICALP 2023](https://icalp2023.cs.upb.de/).
-
-
 
 
 

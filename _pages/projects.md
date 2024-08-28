@@ -7,13 +7,13 @@ title: "Undergrad Projects"
 excerpt: "Projects"
 ---
 
-My undergrad projects may be classified into theoretical research and empirical/system design work. 
+My undergrad projects may be classified into a) **theoretical research** and b) **hardware design work**. 
 
 <!-- * We propose upper bounds on the query complexity of our algorithm and also derive "matching" lower bounds on any optimal algorithm under both the query models.<br/>
   * We also consider noisy versions of the two query models and propose upper bounds on algorithms to estimate the desired subset of elements.<br/>
   * We derive upper bounds on algorithms for an alternate version of this problem where we wish to identify the subset of support elements which is an "outlier" i.e, whose support probability lies above $k$ standard deviations of the mean and design lower bounds on any optimal algorithm under the first query model.<br/> -->
 
-Theoretical research projects:
+**Theoretical research projects**:
 
 We focussed on problems related to gradient coding, distributed computing and some problems in heavy-hitter estimation. 
 
@@ -42,14 +42,16 @@ We focussed on problems related to gradient coding, distributed computing and so
 
 
 
-Empirical/System Design Work:
-<!-- 1. **Iterative decoding algorithms on modern codes| \[[Report](https://Sahasrajit123.github.io/files/Godzilla.pdf)\]** (Jan '20- May '20)<br/>
+**Digital System Design Work**:
+
+<!--- 
+1. **Iterative decoding algorithms on modern codes| \[[Report](https://Sahasrajit123.github.io/files/Godzilla.pdf)\]** (Jan '20- May '20)<br/>
    *Guide: [Prof. Manoj Gopalkrishnan](https://www.ee.iitb.ac.in/~manojg), [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), EE, IIT-B*<br/>
    *Introduction*: The goal in this project was to do an existing literature survey on modern codes specifically to do with LPDC (Low Density Parity Check) codes and turbo codes.
    * Studied the classical message passing algorithm on non-cyclic codes and the convergence in error probability of belief propagation algorithm on certain ensembles of LDPC codes under certain symmetric channels.<br/>
    * Read up on EXIT charts to get an information theoretic viewpoint of the decoding process and went through the convergence of the peeling decoder of LDPC codes under Binary erasure channel.<br/>
    * Studied turbo codes, their representations as factor graphs , the density evolution process during iterative decoding , stability condition, their corresponding EXIT charts and their weight distribution.<br/>
-    -->
+--->
 
 1. **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
    *Guide: [Prof. Madhav Desai](https://www.ee.iitb.ac.in/web/people/faculty/home/madhav), EE, IIT-B* <br/>
