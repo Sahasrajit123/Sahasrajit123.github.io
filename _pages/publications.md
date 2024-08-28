@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Publications/Pre-prints"
 permalink: /publications/
 author_profile: true
 ---
