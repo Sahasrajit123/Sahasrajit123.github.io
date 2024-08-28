@@ -30,6 +30,8 @@ My undergrad projects may be classified into a) **theoretical research** and b) 
   * Designed and tested the CAN (Controlled Area Network) node using CAN enabled micro-controller atmega-16M1 in embedded C using interrupts for sending and receiving messages.<br/>
   * Developed codes using interrupts in ECU (embedded C programming) for reading data from CAN bus, processing and sending control commands to BLDC (Brushless DC motors) on CAN bus.<br/> -->
 
+  <!-- The goal in this project was to implement general purpose micro-processor designs with an instruction set architecture having 16 diverse instructions in VHDL.  -->
+
 **Theoretical research projects**:
 
 We focussed on problems related to **gradient coding, distributed computing** and some problems in **heavy-hitter estimation**. 
@@ -72,22 +74,23 @@ We focussed on problems related to **gradient coding, distributed computing** an
 
 - **Hardware Accelerator for Graphics Computation| \[[Report](https://Sahasrajit123.github.io/files/Report_accelerator.pdf)\]** (Oct '19 - Nov '19) <br/>
    *Guide: [Prof. Madhav Desai](https://www.ee.iitb.ac.in/web/people/faculty/home/madhav), EE, IIT-B* <br/>
-   *Introduction*: The goal in this project was to build an efficient hardware accelerator which exploits parallelism and we implemented a **pipelined design** for convolving a kernel with an image stored in shared memory. **Parallelized** the operation using multiple engines which can fetch the image through pipes and perform **convolution** to reduce computation time and utilize the entire memory bandwidth.
+   **Introduction**: The goal in this project was to build an efficient hardware accelerator which exploits parallelism and we implemented a **pipelined design** for convolving a kernel with an image stored in shared memory. **Parallelized** the operation using multiple engines which can fetch the image through pipes and perform **convolution** to reduce computation time and utilize the entire memory bandwidth.
   
 
 
   
 - **Superscaler and Pipelined Processor Design| \[[Github repository](https://github.com/mohilp1998/superscalar_architecture)\]** (Oct '18 - May '19) <br/>
    *Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/), EE, IIT-B* <br/>
-   *Introduction*: The goal in this project was to implement general purpose micro-processor designs with an instruction set architecture having 16 diverse instructions in VHDL. Designed a **pipelined RISC** processor that employed **hazard-mitigation, operand-forwarding** techniques and an execution superscaler engine consisting of two way fetch supported by **specialised execution engines, reorder buffer, register renaming and reservation station** to extract instruction level parallelism. Verified the running of these designs on a simulator and further synthesized on **Altera Deo-Nano FPGA** Board running at 50 MHz.
+   **Introduction**: Designed a **pipelined RISC** processor that employed **hazard-mitigation, operand-forwarding** techniques and an execution superscaler engine consisting of two way fetch supported by **specialised execution engines, reorder buffer, register renaming and reservation station** to extract instruction level parallelism. 
+   <!-- Verified the running of these designs on a simulator and further synthesized on **Altera Deo-Nano FPGA** Board running at 50 MHz. -->
   
 
 
 - **[IIT Bombay Racing](https://iitbracing.org) (Electric Subsystem)** (Academic year '17-'19) <br/>
-   * Worked as a junior design engineer and a design enginner in a cross functional team of 60+ students from 7 engineering disciplines which designs and fabricates an electric race car for Formula Student competition held annually at Silverstone, UK.<br/>
+   Worked as a **junior design engineer** and a **design enginner** in a cross functional team of 60+ students from 7 engineering disciplines which designs and fabricates an electric race car for [Formula Student](https://www.imeche.org/events/formula-student) competition held annually at Silverstone, UK.<br/>
    **Tasks accomplished**: 
    * Lead the designed of the **harness** of the whole car taking into account the electric requirements of each part. Further, we designed and tested the **CAN (Controlled Area Network)** node using **CAN** enabled micro-controller **atmega-16M1** in embedded C using interrupts.<br/> 
-   * Developed codes using interrupts in ECU (embedded C programming) for reading data from CAN bus and sending control commands to BLDC motors.<br/>
+   * Developed codes using interrupts in ECU (**embedded C programming**) for reading data from CAN bus and sending control commands to **BLDC** motors.<br/>
   
    
  

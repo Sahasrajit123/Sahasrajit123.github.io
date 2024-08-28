@@ -10,7 +10,7 @@ excerpt: "Research Experience"
 <!--with differentially private user queries and we study this problem epirically and theoretically. In a side project we also focus on the statisitical complexity of (Probably Approximately Correct) PAC learning of a set of items under regression
 -->
 
-Research projects: 
+<!-- Research projects:  -->
 
 My research work at Stanford may be broadly classfied into two groups a) **social choice** and b) **machine learing** focussing on the prediction of multiple items in the context of differential privacy.
 
