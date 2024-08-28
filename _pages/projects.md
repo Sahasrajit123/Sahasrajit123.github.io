@@ -20,7 +20,7 @@ We focussed on problems related to gradient coding, distributed computing and so
 - **Query Complexity of Heavy-Hitter distribution** (Aug '19 - Jan '20) <br/>
   *Guide : [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), Department of Electrical Engineering, IIT Bombay* <br/>
   **Objective**: We investigated the problem of identifying the subset of elements in the support of an underlying distribution $\mathcal{P}$ with probabilities exceeding a given threshold $\gamma$, using two distinct query models under a fixed confidence. In the first model, a query $t$ provides the realization of the random variable $X_t$. In the second model, a query $(i,j)$ reveals whether $X_i$ is equal to $X_j$. We provide upper and lower bounds under both the query models.
-  * **Authors** Sahasrajit Sarmasarkar, Kota Srinivas Reddy and Nikhil Karamchandani
+  * **Authors:** Sahasrajit Sarmasarkar, Kota Srinivas Reddy and Nikhil Karamchandani
   * [Paper](https://arxiv.org/abs/2005.14425) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
 
 
@@ -32,7 +32,7 @@ We focussed on problems related to gradient coding, distributed computing and so
    * Furthermore, assignments based on repetition coding ensure the variance of the number of distinct jobs is the largest<br/>
    * [Paper](https://arxiv.org/abs/2402.12584)
 
-- **Straggler mitigation under gradient coding** (Sep '20 - Ongoing) <br/>
+- **Straggler mitigation under gradient coding** (Sep '20 - Sep '21) <br/>
    *Guide: [Prof. Lalitha Vadlamani](https://www.iiit.ac.in/people/faculty/lalitha.v), IIIT Hyderabad, [Prof. Nikhil Karamchandani](http://www.ee.iitb.ac.in/~nikhilk/), IIT Bombay* <br/>
    *Introduction* : This is a synchronous gradient coding problem where the master does not expect the sum of all the $k$-gradients but the sum of any $l=\alpha.k$ gradients would suffice. Each of the $n$ child servers is provided with a set of gradients to compute and transmit one or more linear combinations of them. We aim to design schemes which could tolerate upto $s$-stragglers with minimum number of gradients per worker.
    * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
