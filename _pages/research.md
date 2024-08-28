@@ -12,7 +12,7 @@ excerpt: "Research Experience"
 
 Research projects: 
 
-My research work at Stanford may be broadly classfied into two groups a) **social choice** and b) **machine learing** focussing on the selection/learning of multiple items.
+My research work at Stanford may be broadly classfied into two groups a) **social choice** and b) **machine learing** focussing on the prediction of multiple items in the context of differential privacy.
 
 
 
@@ -30,10 +30,10 @@ In this work, we focus on prediction of multiple $k$ items in the context of rec
 
 - **Multi-Selection for Private Recommendation Systems**
 
-    * **Objective** We propose a multi-selection model for a neural network-based movie recommendation system, trained on the MovieLens 25M dataset, where users submit differentially private queries to the server. Additionally, we introduce a local PCA model that allows users to select a single item from the set of recommended options. Our empirical results demonstrate that, under "reasonable" privacy guarantees, our architecture achieves a utility comparable to that of the non-private scenario.
+    * **Objective** We propose a multi-selection model for a neural network-based movie recommendation system, trained on the MovieLens 25M dataset, where users submit differentially private queries to the server. Additionally, we introduce a local PCA model that allows users to select a single item from the set of recommended options. Our empirical findings show that with "reasonable" privacy guarantees, our architecture delivers utility quite similar to the non-private case.
 
     * **Authors** Sahasrajit Sarmasarkar, Zhihao Jiang, Ashish Goel, Aleksandra Korolova and Kamesh Munagala
-    * Paper submitted to [WSDM 2025](https://www.wsdm-conference.org/2025/)
+    * [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing) submitted to [WSDM 2025](https://www.wsdm-conference.org/2025/)
 
 - **A Characterization of List Learnability for Agnostic and Realizable Regression**
 
