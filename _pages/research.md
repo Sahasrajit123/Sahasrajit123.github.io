@@ -19,26 +19,26 @@ My research work at Stanford may be broadly classfied into two groups a) **socia
 <h2 style="text-align: left;">1. Machine Learning</h2>
 
 
-In this work, we focus on prediction of multiple $k$ items in the context of recommendation systems.
+In this work, we focus on prediction of multiple $k$ items that maybe useful for recommendation systems.
 
 - **Differential Privacy with Multiple Selections**
 
-    * **Objective:** We consider a scenario where a user sends a differentially private query to the server and propose a "multi-selection" architecture in which the server returns multiple items, allowing the user to choose the best fit. When the user's feature is one-dimensional, we demonstrate that adding Laplace noise is an optimal mechanism, with the error decreasing inversely with the number of recommended items $k$.
-    * **Authors:** Ashish Goel<sup>*</sup>, Zhihao Jiang<sup>*</sup>, Aleksandra Korolova<sup>*</sup>, Kamesh Munagala<sup>*</sup> and Sahasrajit Sarmasarkar<sup>*</sup>
+    * **Objective:** We consider a scenario where a user sends a **differentially private** query to the server and propose a "multi-selection" architecture in which the server returns multiple items, allowing the user to choose the best fit. When the user's feature is one-dimensional, we demonstrate that adding **Laplace noise** is an **optimal mechanism**, with the error decreasing inversely with the number of recommended items $k$.
+    * **Authors:** [Ashish Goel](https://web.stanford.edu/~ashishg/)<sup>*</sup>, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang)<sup>*</sup>, [Aleksandra Korolova](https://www.korolova.com/)<sup>*</sup>, [Kamesh Munagala](https://www.kameshmunagala.org/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2407.14641) submitted to [ITCS 2025](http://itcs-conf.org/).
 
 - **Multi-Selection for Private Recommendation Systems**
 
-    * **Objective** We introduce a multi-selection model for a neural network-based movie recommendation system, trained on the MovieLens 25M dataset, where users send differentially private queries to the server. Additionally, we develop a local PCA model that enables users to choose a single item from the recommended set. Our empirical results indicate that, with "reasonable" privacy guarantees, our architecture provides utility closely matching that of the non-private scenario.
+    * **Objective** We introduce a multi-selection model for a **neural network-based movie recommendation** system, trained on the MovieLens 25M dataset, where users send differentially private queries to the server. Additionally, we develop a **local PCA model** that enables users to choose a **single item** from the recommended set. Our empirical results indicate that, with "reasonable" privacy guarantees, our architecture provides utility closely matching that of the non-private scenario.
 
-    * **Authors:** Sahasrajit Sarmasarkar, Zhihao Jiang, Ashish Goel, Aleksandra Korolova and Kamesh Munagala
+    * **Authors:** **Sahasrajit Sarmasarkar**, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang), [Ashish Goel](https://web.stanford.edu/~ashishg/), [Aleksandra Korolova](https://www.korolova.com/) and [Kamesh Munagala](https://www.kameshmunagala.org/)
     * [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing) submitted to [WSDM 2025](https://www.wsdm-conference.org/2025/)
 
 - **A Characterization of List Learnability for Agnostic and Realizable Regression**
 
-    * **Objective:** In this work, we study the problem of list PAC learning (for both agnostic and realizable regression) where the aim of a learner is to learn to predict a set of $k$ labels with the loss being measured with respect to the closest label. We identify two dimensions of the hypothesis class—referred to as the $k$ fat-shattering dimension and the $k$ OIG dimension—whose finiteness is both necessary and sufficient for agnostic and realizable regression, respectively. 
+    * **Objective:** In this work, we study the problem of **list PAC learning** (for both agnostic and realizable regression) where the aim of a learner is to learn to predict a set of $k$ labels with the loss being measured with respect to the **closest label**. We identify two dimensions of the hypothesis class—referred to as the $k$ **fat-shattering dimension** and the $k$ **OIG dimension**—whose finiteness is both necessary and sufficient for agnostic and realizable regression, respectively. 
 
-    * **Authors:** Chirag Pabbaraju<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup>
+    * **Authors:** [Chirag Pabbaraju](https://web.stanford.edu/~cpabbara/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup>
     * Paper under preparation 
 
 <h2 style="text-align: left;">2. Social Choice</h2>
@@ -49,21 +49,21 @@ This area focuses on combining individual preferences to make collective decisio
 
     * **Objective:** We extend the study of metric distortion in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes Plackett-Luce (PL). For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that Copeland's distortion is at most 2, whereas that of Random Dictator (RD) scales with the square root of the number of candidates. However in the classical model, where RD beats Copeland with a distortion of 3 versus 5. 
 
-    * **Authors:** Sahasrajit Sarmasarkar<sup>*</sup> and Mohak Goyal<sup>*</sup>
+    * **Authors:** **Sahasrajit Sarmasarkar**<sup>*</sup> and [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2405.14223) under review at [Neurips 2024](https://neurips.cc/)
 
 - **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**
 
     * **Objective:** We investigate the challenge of participatory budgeting through menu-based preference elicitation, focusing on capturing project interactions, such as substitution and complementarity, from voters. We introduce an innovative preference elicitation approach that enables voters to express how their utilities from projects within specific 'groups' interact. In this context, we examine the property of strategy-proofness and present a fixed-parameter tractable (FPT) algorithm for maximizing social welfare.
 
-    * **Authors:** Mohak Goyal<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup> and Ashish Goel
+    * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup> and [Ashish Goel](https://web.stanford.edu/~ashishg/)
     * [Paper](https://link.springer.com/chapter/10.1007/978-3-031-48974-7_19) presented at [WINE 2023](https://wine2023.shanghaitech.edu.cn/).
 
 - **Low sample complexity participatory budgeting**
 
     * **Objective:** We study the problem of participatory budgeting where each voter votes for a preferred allocation of projects. We present a PB mechanism that attains a distortion of 1.66 when three votes are randomly sampled by the mechanism. This surpasses the distortion barrier of 2 achieved by the Randomized Dictator and Random Diarchy schemes, which select one and two voters at random from the set, respectively.
 
-    * **Authors:** Mohak Goyal<sup>*</sup>, Sukolsak Sakshuwong<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup> and Ashish Goel
+    * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>, [Sukolsak Sakshuwong](https://sukolsak.com/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup> and [Ashish Goel](https://web.stanford.edu/~ashishg/)
     * [Paper](https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.70/LIPIcs.ICALP.2023.70.pdf) presented at [ICALP 2023](https://icalp2023.cs.upb.de/).
 
 
