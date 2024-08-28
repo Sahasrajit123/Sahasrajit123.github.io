@@ -38,7 +38,7 @@ We focussed on problems related to gradient coding, distributed computing and so
    * Designed schemes attaining the lower bound on the number of gradient data subsets assigned to every worker but with high communication load per worker.<br/>
    * Proved that the above scheme is "optimal" in the number of gradients assigned to any worker under certain constraints on $n,l$ and $s$.<br/>
    * We also simulate such schemes using different delay model on machines and show empirically that such schemes may indeed converge faster than full recovery schemes and the ones which don't use any coding.<br/>
-   * [Paper](https://arxiv.org/abs/2102.10163) presented at [ISIT, 2021](https://2021.ieee-isit.org/)
+   * [Paper](https://arxiv.org/abs/2102.10163) presented at [ISIT, 2021](https://2021.ieee-isit.org/) and [Extended version accepted at IEEE-TCOM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=26).
 
 
 
