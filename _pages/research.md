@@ -39,7 +39,7 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
     * **Objective:** In this work, we study the problem of **list PAC learning** (for both agnostic and realizable regression) where the aim of a learner is to learn to predict a set of $k$ labels with the loss being measured with respect to the **closest label**. We identify two dimensions of the hypothesis class—referred to as the $k$ **fat-shattering dimension** and the $k$ **OIG dimension**—whose finiteness is both necessary and sufficient for agnostic and realizable regression, respectively. 
 
     * **Authors:** [Chirag Pabbaraju](https://web.stanford.edu/~cpabbara/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup>
-    * Paper under preparation 
+    * [Paper](https://arxiv.org/pdf/2409.19218) submitted to [ALT 2025](http://algorithmiclearningtheory.org/alt2025/)
 
 <h2 style="text-align: left;">2. Social Choice</h2>
 
