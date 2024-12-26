@@ -25,7 +25,7 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
 
     * **Objective:** We consider a scenario where a user sends a **differentially private** query to the server and propose a "multi-selection" architecture in which the server returns multiple items, allowing the user to choose the best fit. When the user's feature is one-dimensional, we demonstrate that adding **Laplace noise** is an **optimal mechanism**, with the error decreasing inversely with the number of recommended items $k$.
     * **Authors:** [Ashish Goel](https://web.stanford.edu/~ashishg/)<sup>*</sup>, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang)<sup>*</sup>, [Aleksandra Korolova](https://www.korolova.com/)<sup>*</sup>, [Kamesh Munagala](https://www.kameshmunagala.org/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>
-    * [Paper](https://arxiv.org/abs/2407.14641) submitted to [ITCS 2025](http://itcs-conf.org/).
+    * [Paper](https://arxiv.org/abs/2407.14641) accepted in [FORC 2025](https://responsiblecomputing.org/forc-2025/).
 
 - **Multi-Selection for Private Recommendation Systems**
 
@@ -39,7 +39,7 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
     * **Objective:** In this work, we study the problem of **list PAC learning** (for both agnostic and realizable regression) where the aim of a learner is to learn to predict a set of $k$ labels with the loss being measured with respect to the **closest label**. We identify two dimensions of the hypothesis class—referred to as the $k$ **fat-shattering dimension** and the $k$ **OIG dimension**—whose finiteness is both necessary and sufficient for agnostic and realizable regression, respectively. 
 
     * **Authors:** [Chirag Pabbaraju](https://web.stanford.edu/~cpabbara/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup>
-    * [Paper](https://arxiv.org/pdf/2409.19218) submitted to [ALT 2025](http://algorithmiclearningtheory.org/alt2025/)
+    * [Paper](https://arxiv.org/pdf/2409.19218) accepted in [ALT 2025](http://algorithmiclearningtheory.org/alt2025/)
 
 <h2 style="text-align: left;">2. Social Choice</h2>
 
@@ -49,8 +49,8 @@ This area focuses on combining individual preferences to make collective decisio
 
     * **Objective:** We extend the study of **metric distortion** in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes **Plackett-Luce (PL)**. For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that **Copeland's** distortion is at most 2, whereas that of **Random Dictator (RD)** scales with the square root of the number of candidates. However in the classical model, where **RD beats Copeland** with a distortion of 3 versus 5. 
 
-    * **Authors:** **Sahasrajit Sarmasarkar**<sup>*</sup> and [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>
-    * [Paper](https://arxiv.org/abs/2405.14223) under review at [Neurips 2024](https://neurips.cc/)
+    * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup>
+    * [Paper](https://arxiv.org/abs/2405.14223) under review at [STOC 2025](https://acm-stoc.org/stoc2025/)
 
 - **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**
 
