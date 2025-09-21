@@ -33,7 +33,7 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
     * Achieve $\tilde{O}(\sqrt{T}/\epsilon)$ regret under **shuffle DP** and **joint DP**, matching non-private bounds up to a $1/\epsilon$ factor.  
     * Make no additional assumptions on context distributions beyond $\ell_2$ boundedness.  
     * **Authors:** Sahasrajit Sarmasarkar<sup>*</sup>
-    * Under review in [Neurips 2025](https://neurips.cc/Conferences/2025)
+    * Under review in [AISTATS 2026](https://aistats.org/)
 
 <h2 style="text-align: left;">2. Preference Learning / Learning Theory </h2>
 
@@ -44,7 +44,7 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
     * Prove exponential-to-polynomial improvements in sample efficiency for linear rewards, with extensions to non-parametric models.  
     * Conduct extensive experiments on linear and neural reward models, as well as a 500k text-to-image dataset generated from diffusion models.  
     * **Authors:** Ayush Sawarni<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup>, Vasilis Syrgkanis<sup>*</sup>, and **Sahasrajit Sarmasarkar**<sup>*</sup>  
-    * [Paper](https://arxiv.org/pdf/2505.22820) under review in [Neurips 2025](https://neurips.cc/Conferences) 
+    * [Paper](https://arxiv.org/pdf/2505.22820) accepted in [Neurips 2025](https://neurips.cc/Conferences) 
 
 - **A Characterization of List Learnability for Agnostic and Realizable Regression**
 
