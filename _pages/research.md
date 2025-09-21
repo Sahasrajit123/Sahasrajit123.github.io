@@ -61,7 +61,7 @@ This area focuses on combining individual preferences to make collective decisio
 
     * **Objective:** We extend the study of **metric distortion** in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes **Plackett-Luce (PL)**. For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that **Copeland's** distortion is at most 2, whereas that of **Random Dictator (RD)** scales with the square root of the number of candidates. However in the classical model, where **RD beats Copeland** with a distortion of 3 versus 5. 
 
-    * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup>
+    * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2405.14223) accepted at [EC 2025](https://ec25.sigecom.org/)
 
 - **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**
