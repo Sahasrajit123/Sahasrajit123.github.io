@@ -9,7 +9,7 @@ author_profile: true
 2. S. Sarmasarkar, V.Lalitha and N. Karamchandani "On Gradient Coding with Partial Recovery", International Symposium on Information Theory, 2021 [[Paper]](https://arxiv.org/abs/2102.10163)
 
  -->
- 1. [Ashish Goel](https://web.stanford.edu/~ashishg/)<sup>*</sup>, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang/home)<sup>*</sup>, [Aleksandra Korolava](https://www.korolova.com/)<sup>*</sup>, [Kamesh Munagala](https://www.kameshmunagala.org/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>, "On Differential Privacy with Multiple Selections," submitted to [ITCS '25](http://itcs-conf.org/) [Paper](https://arxiv.org/abs/2407.14641).
+ 1. [Ashish Goel](https://web.stanford.edu/~ashishg/)<sup>*</sup>, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang/home)<sup>*</sup>, [Aleksandra Korolava](https://www.korolova.com/)<sup>*</sup>, [Kamesh Munagala](https://www.kameshmunagala.org/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>, "On Differential Privacy with Multiple Selections," accepted in [FORC '25](https://responsiblecomputing.org/forc-2025/) [Paper](https://arxiv.org/abs/2407.14641).
 
 2. [Ayush Sawarni](https://sawarniayush.github.io/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup> and [Vasilis Syrgkanis](https://vsyrgkanis.com/index.html), "Preference Learning with Response Time", accepted in [NeurIPS 2025](https://neurips.cc/) [Paper](https://arxiv.org/abs/2505.22820) 
 
