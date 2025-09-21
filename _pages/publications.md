@@ -25,6 +25,6 @@ author_profile: true
 
 8. **Sahasrajit Sarmasarkar**, [Kota Srinivas Reddy](https://sites.google.com/view/ksreddi-publications/) and [Nikhil Karamchandani](https://sites.google.com/site/nikhilkaram/home/), "Query Complexity of Heavy Hitter Estimation," accepted at [International Symposium on Information Theory (ISIT), 2021](https://2021.ieee-isit.org/) [Paper](https://arxiv.org/pdf/2005.14425.pdf).
 
-9. **Sahasrajit Sarmasarkar** and [Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), "Optimal Moments on Redundancies in Noisy Parallel Computing Setup." [Paper](https://arxiv.org/abs/2402.12584)
+9. **Sahasrajit Sarmasarkar** and [Harish Pillai](https://www.ee.iitb.ac.in/wiki/faculty/hp), "Optimal Moments on Redundancies in Noisy Parallel Computing Setup," accepted at [International Symposium on Information Theory (ISIT), 2025](https://2025.ieee-isit.org/)[Paper](https://arxiv.org/abs/2402.12584) 
 
 
