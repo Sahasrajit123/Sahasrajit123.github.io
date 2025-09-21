@@ -16,7 +16,7 @@ My research work at Stanford may be broadly classfied into two groups a) **socia
 
 
 
-<h2 style="text-align: left;">1. Machine Learning</h2>
+<h2 style="text-align: left;">1. Differential Privacy</h2>
 
 
 In this work, we focus on prediction of multiple $k$ items that maybe useful for recommendation systems.
@@ -27,12 +27,24 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
     * **Authors:** [Ashish Goel](https://web.stanford.edu/~ashishg/)<sup>*</sup>, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang)<sup>*</sup>, [Aleksandra Korolova](https://www.korolova.com/)<sup>*</sup>, [Kamesh Munagala](https://www.kameshmunagala.org/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>
     * [Paper](https://arxiv.org/abs/2407.14641) accepted in [FORC 2025](https://responsiblecomputing.org/forc-2025/).
 
-- **Multi-Selection for Private Recommendation Systems**
+- **Shuffled Differential Privacy for Generalized Linear Contextual Bandits**
 
-    * **Objective** We introduce a multi-selection model for a **neural network-based movie recommendation** system, trained on the MovieLens 25M dataset, where users send differentially private queries to the server. Additionally, we develop a **local PCA model** that enables users to choose a **single item** from the recommended set. Our empirical results indicate that, with "reasonable" privacy guarantees, our architecture provides utility closely matching that of the non-private scenario.
+    * **Objective:** We study **differential privacy** in generalized linear contextual bandits under both **stochastic** and **adversarial** contexts, protecting both context vectors and observed rewards.  
+    * Achieve $\tilde{O}(\sqrt{T}/\epsilon)$ regret under **shuffle DP** and **joint DP**, matching non-private bounds up to a $1/\epsilon$ factor.  
+    * Make no additional assumptions on context distributions beyond $\ell_2$ boundedness.  
+    * **Authors:** Sahasrajit Sarmasarkar<sup>*</sup>
+    * Under review in [Neurips 2025](https://neurips.cc/Conferences/2025)
 
-    * **Authors:** **Sahasrajit Sarmasarkar**, [Zhihao Jiang](https://sites.google.com/view/zhihaojiang), [Ashish Goel](https://web.stanford.edu/~ashishg/), [Aleksandra Korolova](https://www.korolova.com/) and [Kamesh Munagala](https://www.kameshmunagala.org/)
-    * [Paper](https://drive.google.com/file/d/1qE1O2IMk8NjvMG_4jZIUqcdPhbB6Aoai/view?usp=sharing) submitted to [WSDM 2025](https://www.wsdm-conference.org/2025/)
+<h2 style="text-align: left;">2. Preference Learning / Learning Theory </h2>
+
+- **Prefernce Learning with Response Time**
+
+    * **Objective:** We investigate how **response time data** can enhance preference learning for more effective reward model elicitation.  
+    * Develop orthogonal loss functions leveraging the **drift–diffusion model**, achieving oracle convergence rates.  
+    * Prove exponential-to-polynomial improvements in sample efficiency for linear rewards, with extensions to non-parametric models.  
+    * Conduct extensive experiments on linear and neural reward models, as well as a 500k text-to-image dataset generated from diffusion models.  
+    * **Authors:** Ayush Sawarni<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup>, Vasilis Syrgkanis<sup>*</sup>, and **Sahasrajit Sarmasarkar**<sup>*</sup>  
+    * [Paper](https://arxiv.org/pdf/2505.22820) under review in [Neurips 2025](https://neurips.cc/Conferences) 
 
 - **A Characterization of List Learnability for Agnostic and Realizable Regression**
 
@@ -41,7 +53,7 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
     * **Authors:** [Chirag Pabbaraju](https://web.stanford.edu/~cpabbara/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup>
     * [Paper](https://arxiv.org/pdf/2409.19218) accepted in [ALT 2025](http://algorithmiclearningtheory.org/alt2025/)
 
-<h2 style="text-align: left;">2. Social Choice</h2>
+<h2 style="text-align: left;">3. Social Choice</h2>
 
 This area focuses on combining individual preferences to make collective decisions and measure social well-being. 
 
@@ -50,7 +62,7 @@ This area focuses on combining individual preferences to make collective decisio
     * **Objective:** We extend the study of **metric distortion** in social choice, which evaluates the performance of voting rules, to the probabilistic voting framework that includes **Plackett-Luce (PL)**. For example, in the PL model with candidate strength inversely proportional to the square of their metric distance, we show that **Copeland's** distortion is at most 2, whereas that of **Random Dictator (RD)** scales with the square root of the number of candidates. However in the classical model, where **RD beats Copeland** with a distortion of 3 versus 5. 
 
     * **Authors:** [Mohak Goyal](https://sites.google.com/view/mohakg/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup>
-    * [Paper](https://arxiv.org/abs/2405.14223) under review at [STOC 2025](https://acm-stoc.org/stoc2025/)
+    * [Paper](https://arxiv.org/abs/2405.14223) accepted at [EC 2025](https://ec25.sigecom.org/)
 
 - **A Mechanism for Participatory Budgeting With Funding Constraints and Project Interactions**
 
