@@ -30,9 +30,9 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
 - **Shuffled Differential Privacy for Generalized Linear Contextual Bandits**
 
     * **Objective:** We study **differential privacy** in generalized linear contextual bandits under both **stochastic** and **adversarial** contexts, protecting both context vectors and observed rewards.  
-    * Achieve $\tilde{O}(\sqrt{T}/\epsilon)$ regret under **shuffle DP** and **joint DP**, matching non-private bounds up to a $1/\epsilon$ factor.  
+    * Achieve $\tilde{O}(\sqrt{T}/\epsilon)$ regret under **shuffle DP** and **joint DP**, matching non-private bounds up to a $\sqrt{d}/\sqrt{\epsilon}$ factor.  
     * Make no additional assumptions on context distributions beyond $\ell_2$ boundedness.  
-    * **Authors:** Sahasrajit Sarmasarkar<sup>*</sup>
+    * **Authors:** **Sahasrajit Sarmasarkar**
     * Under review in [AISTATS 2026](https://aistats.org/)
 
 <h2 style="text-align: left;">2. Preference Learning / Learning Theory </h2>
