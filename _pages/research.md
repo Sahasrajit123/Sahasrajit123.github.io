@@ -43,7 +43,7 @@ In this work, we focus on prediction of multiple $k$ items that maybe useful for
     * Develop orthogonal loss functions leveraging the **drift–diffusion model**, achieving oracle convergence rates.  
     * Prove exponential-to-polynomial improvements in sample efficiency for linear rewards, with extensions to non-parametric models.  
     * Conduct extensive experiments on linear and neural reward models, as well as a 500k text-to-image dataset generated from diffusion models.  
-    * **Authors:** Ayush Sawarni<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup> and Vasilis Syrgkanis  
+    * **Authors:** [Ayush Sawarni](https://sawarniayush.github.io/)<sup>*</sup>, Sahasrajit Sarmasarkar<sup>*</sup> and [Vasilis Syrgkanis](https://vsyrgkanis.com/index.html)  
     * [Paper](https://arxiv.org/pdf/2505.22820) accepted in [Neurips 2025](https://neurips.cc/Conferences) 
 
 - **A Characterization of List Learnability for Agnostic and Realizable Regression**

@@ -13,7 +13,7 @@ author_profile: true
 
 2. [Ayush Sawarni](https://sawarniayush.github.io/)<sup>*</sup>, **Sahasrajit Sarmasarkar**<sup>*</sup> and [Vasilis Syrgkanis](https://vsyrgkanis.com/index.html), "Preference Learning with Response Time", accepted in [NeurIPS 2025](https://neurips.cc/) [Paper](https://arxiv.org/abs/2505.22820) 
 
-3. **Sahasrajit Sarmasarkar**<sup>*</sup> and [Mohak Goyal](https://sites.google.com/view/mohakg/home)<sup>*</sup>, "Metric Distortion under Probabilistic Voting," accepted in [EC 2025](https://ec25.sigecom.org/) [Paper](https://arxiv.org/abs/2405.14223).
+3. [Mohak Goyal](https://sites.google.com/view/mohakg/home)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>, "Metric Distortion under Probabilistic Voting," accepted in [EC 2025](https://ec25.sigecom.org/) [Paper](https://arxiv.org/abs/2405.14223).
 
 4. [Chirag Pabbaraju](https://web.stanford.edu/~cpabbara/)<sup>*</sup> and **Sahasrajit Sarmasarkar**<sup>*</sup>, "A Characterization of List Regression", accepted in [ALT 2025](https://algorithmiclearningtheory.org/alt2025/) [Paper](https://arxiv.org/abs/2409.19218)
 
